@@ -1,0 +1,13 @@
+Item,Qty,BuildOrBuy,IndicativeCost_NZD,Purpose,Status
+Upper enclosure shell,1,Make,TBD,Main external protection,Planned SolidWorks
+Lower enclosure shell,1,Make,TBD,PCB battery and gasket interface,Planned SolidWorks
+Elastomer gasket,1,Buy/Make,5,Seal between shells,Planned
+M3 stainless screws,6,Buy,4,Perimeter compression,Planned
+PCB placeholder,1,Make,TBD,Electronics packaging reference,Planned
+Battery placeholder,1,Buy/Reference,15,Power source packaging,Planned
+Environmental sensor module,1,Buy,15,Sensor placeholder,Planned Proteus
+MCU module,1,Buy,15,Control and communication,Planned Keil/Proteus
+Sealed debug port cover,1,Make,TBD,Service access,Planned
+Strap or bracket,1,Buy/Make,8,Field mounting,Planned
+Pressure vent membrane placeholder,1,Buy,6,Pressure equalisation concept,Optional
+Pull test fixture plate,1,Make,TBD,Validation fixture,Planned

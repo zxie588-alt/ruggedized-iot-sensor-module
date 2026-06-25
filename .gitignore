@@ -1,0 +1,23 @@
+# CAD and simulation temporary files
+~$*
+*.bak
+*.tmp
+*.log
+*.lck
+*.jnl
+
+# Windows metadata
+Thumbs.db
+desktop.ini
+
+# Python / Node cache
+__pycache__/
+*.pyc
+node_modules/
+
+# Compiled helper binaries
+*.exe
+
+# Local scratch
+_scratch/
+temp/
