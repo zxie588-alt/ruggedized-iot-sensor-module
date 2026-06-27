@@ -35,3 +35,33 @@ Next CAD tasks:
 - Add external strap/lug mount and prepare it for Abaqus load-case extraction.
 - Add service/debug port seal concept.
 - Create drawing sheets for main dimensions, exploded assembly and BOM callouts.
+
+## 2026-06-27 - SolidWorks CAD V2
+
+Objective: turn the V1 package study into a more complete product-design model suitable for portfolio review.
+
+Added CAD features:
+
+- M3-style screw boss rings in the lower enclosure and counterbored screw-pad intent in the lid.
+- PCB standoff rings and PCB mounting markers.
+- Gasket groove wall intent in the lower enclosure and matching lid compression ribs.
+- Rear strap-mount lugs with through-hole intent for outdoor mounting.
+- Side service/debug port boss with cover plate and matching lid seal pad.
+- Front cable-gland ring and lid clearance flat.
+- Internal rib and battery-restraint clip features.
+- More detailed PCB package model with MCU, sensor/power, connector, debug header, battery connector and antenna keep-out features.
+- Battery model with two cell envelopes and retaining strap marker.
+- Detailed V2 exploded assembly, STEP/STL exports and rendered portfolio image.
+
+Design intent:
+
+- Make the sealing path, fastening path, mounting path and service path visible in the model.
+- Keep the design honest as a concept CAD package, while still showing a realistic product-engineering workflow.
+- Prepare geometry for the next engineering tasks: 2D drawings, strap-mount FEA extraction and electronics/firmware integration.
+
+Remaining engineering limits:
+
+- Screw and gasket geometry is modelled as design intent, not validated tolerance stack-up.
+- Strap lugs are ready for a preliminary load case, but no FEA has been completed yet.
+- No physical IP, drop, UV, thermal or vibration testing has been completed.
+- Final draft angles, mould-flow considerations and production tooling features are still outside the current evidence boundary.
