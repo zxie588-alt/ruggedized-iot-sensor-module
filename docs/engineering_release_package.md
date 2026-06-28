@@ -15,7 +15,8 @@ Document status: concept release package for portfolio review.
 - Abaqus strap-mount lug concept FEA.
 - Abaqus enclosure corner-load concept FEA.
 - Abaqus screw-boss compression concept FEA.
-- Proteus-style electronics architecture.
+- Proteus electronics architecture.
+- Proteus-ready schematic evidence package.
 - Keil/uVision firmware scaffold and ARMCLANG-verifiable C source.
 - Verification and validation matrix.
 

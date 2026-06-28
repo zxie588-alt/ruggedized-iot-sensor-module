@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#14213d">Ruggedized IoT Sensor Module - Schematic Concept V1</text>
+  <text x="60" y="108" font-family="Arial" font-size="17" fill="#526070">Proteus-ready schematic evidence: power path, MCU signals, sensor bus, debug/service port and radio boundary.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .block { fill:#ffffff; stroke:#94a3b8; stroke-width:2; rx:10; }
+      .title { font-family:Arial; font-size:20px; font-weight:700; fill:#0f172a; }
+      .small { font-family:Arial; font-size:14px; fill:#334155; }
+      .net { stroke:#2563eb; stroke-width:3; fill:none; marker-end:url(#arrow); }
+      .rail { stroke:#0f766e; stroke-width:4; fill:none; }
+      .warn { fill:#fff7ed; stroke:#fb923c; stroke-width:2; rx:8; }
+    </style>
+  </defs>
+
+  <rect class="block" x="60" y="170" width="185" height="90"/>
+  <text class="title" x="85" y="205">BT1 Battery</text>
+  <text class="small" x="85" y="232">2-cell Li-ion</text>
+
+  <rect class="block" x="300" y="155" width="210" height="120"/>
+  <text class="title" x="325" y="190">Input Protection</text>
+  <text class="small" x="325" y="218">F1 polyfuse</text>
+  <text class="small" x="325" y="242">Q1 reverse protection</text>
+
+  <rect class="block" x="565" y="155" width="205" height="120"/>
+  <text class="title" x="595" y="190">U3 Regulator</text>
+  <text class="small" x="595" y="218">2S battery to 3V3</text>
+  <text class="small" x="595" y="242">buck regulator class</text>
+
+  <rect class="block" x="585" y="370" width="250" height="245"/>
+  <text class="title" x="625" y="405">U1 MCU</text>
+  <text class="small" x="625" y="433">STM32 low-power class</text>
+  <text class="small" x="625" y="462">PA0 BATTERY_ADC</text>
+  <text class="small" x="625" y="486">PB6/PB7 I2C</text>
+  <text class="small" x="625" y="510">PA5/PA6 LEDs</text>
+  <text class="small" x="625" y="534">PB3 SERVICE_WAKE</text>
+  <text class="small" x="625" y="558">PA9/PA10 UART</text>
+  <text class="small" x="625" y="582">PA13/PA14 SWD</text>
+
+  <rect class="block" x="960" y="185" width="240" height="115"/>
+  <text class="title" x="990" y="220">U2 I2C Sensor</text>
+  <text class="small" x="990" y="248">BME280/BMP280 class</text>
+  <text class="small" x="990" y="272">below sensor membrane</text>
+
+  <rect class="block" x="960" y="355" width="240" height="115"/>
+  <text class="title" x="990" y="390">J1 SWD Header</text>
+  <text class="small" x="990" y="418">SWDIO / SWCLK / NRST</text>
+  <text class="small" x="990" y="442">sealed service port</text>
+
+  <rect class="block" x="960" y="525" width="240" height="115"/>
+  <text class="title" x="990" y="560">J2 Radio Boundary</text>
+  <text class="small" x="990" y="588">UART TX/RX + 3V3</text>
+  <text class="small" x="990" y="612">module selected later</text>
+
+  <rect class="block" x="305" y="380" width="215" height="110"/>
+  <text class="title" x="330" y="415">Battery Divider</text>
+  <text class="small" x="330" y="443">R1 1.0M / R2 470k</text>
+  <text class="small" x="330" y="467">C1 ADC filter</text>
+
+  <rect class="block" x="305" y="545" width="215" height="115"/>
+  <text class="title" x="330" y="580">Status LEDs</text>
+  <text class="small" x="330" y="608">D1 status + R5</text>
+  <text class="small" x="330" y="632">D2 fault + R6</text>
+
+  <rect class="block" x="305" y="715" width="215" height="90"/>
+  <text class="title" x="330" y="750">SW1 Service</text>
+  <text class="small" x="330" y="778">sealed wake input</text>
+
+  <path class="rail" d="M245 215 L300 215"/>
+  <path class="rail" d="M510 215 L565 215"/>
+  <path class="rail" d="M770 215 L890 215 L890 390 L835 390"/>
+  <text class="small" x="270" y="198" fill="#0f766e">VBAT</text>
+  <text class="small" x="525" y="198" fill="#0f766e">REG_IN</text>
+  <text class="small" x="810" y="198" fill="#0f766e">3V3</text>
+
+  <path class="net" d="M520 435 L585 462"/>
+  <text class="small" x="525" y="420">BATTERY_ADC</text>
+
+  <path class="net" d="M835 486 C900 486 895 242 960 242"/>
+  <path class="net" d="M835 505 C910 505 905 262 960 262"/>
+  <text class="small" x="852" y="330">I2C SCL/SDA</text>
+
+  <path class="net" d="M520 602 L585 510"/>
+  <text class="small" x="522" y="585">STATUS / FAULT</text>
+
+  <path class="net" d="M520 760 C555 760 555 534 585 534"/>
+  <text class="small" x="525" y="735">SERVICE_WAKE</text>
+
+  <path class="net" d="M835 570 L960 580"/>
+  <path class="net" d="M835 555 L960 600"/>
+  <text class="small" x="862" y="545">UART</text>
+
+  <path class="net" d="M835 582 C905 582 900 410 960 410"/>
+  <path class="net" d="M835 565 C900 565 900 430 960 430"/>
+  <text class="small" x="860" y="462">SWD</text>
+
+  <rect class="warn" x="60" y="725" width="185" height="95"/>
+  <text class="small" x="82" y="756" font-weight="700">Evidence boundary</text>
+  <text class="small" x="82" y="780">Schematic concept only</text>
+  <text class="small" x="82" y="802">No final PCB or RF claim</text>
+</svg>

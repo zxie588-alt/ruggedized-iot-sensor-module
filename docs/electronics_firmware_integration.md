@@ -12,6 +12,7 @@ This step connects the mechanical package to a plausible embedded electronics an
 - Status/fault LEDs map to visible service feedback.
 - SWD and service wake signals map to the sealed service/debug port in CAD V2.
 - UART radio boundary is reserved for future transmit/log module selection.
+- Schematic evidence V1 adds candidate components, connection-level netlist, power budget and firmware-aligned pin map.
 
 ## Firmware Architecture
 
@@ -31,8 +32,9 @@ This step connects the mechanical package to a plausible embedded electronics an
 - ARMCLANG-verifiable embedded C source structure.
 - Pin map linking electronics signals to firmware ownership.
 - Proteus electronics architecture note and signal table.
+- Proteus-ready schematic package V1.
 - Architecture diagrams for portfolio display.
 
 ## Evidence Boundary
 
-This step does not claim a final PCB, physical circuit test, RF certification, measured current consumption or flashed firmware. It shows integration planning and firmware architecture readiness.
+This step does not claim a final PCB, native Proteus `.pdsprj`, physical circuit test, RF certification, measured current consumption or flashed firmware. It shows integration planning and firmware architecture readiness.

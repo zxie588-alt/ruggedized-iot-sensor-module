@@ -1,0 +1,17 @@
+Net,Connected Nodes,Domain,Purpose,Firmware Owner,Mechanical Link,Review Status
+VBAT_RAW,"BT1+, F1 input",2-cell Li-ion raw input,Bring protected battery power onto PCB,Power monitor,Battery pocket and cable route,Concept defined
+VBAT_PROTECTED,"F1 output, Q1 source, R1 top",Protected battery input,Reverse/over-current protected source for regulator and ADC divider,Power monitor,Battery service path,Concept defined
+REG_IN,"Q1 drain, U3 VIN, CIN+",Regulator input,Supply buck regulator from protected battery rail,Platform,PCB power-entry side,Concept defined
+3V3,"U3 VOUT, U1 VDD, U2 VCC, R3/R4 top, D1/D2 anodes, J1 VREF, J2 VCC",3.3 V regulated rail,Main logic and sensor supply,Platform,PCB envelope and service port,Concept defined
+GND,"BT1-, U1 VSS, U2 GND, U3 GND, J1 GND, J2 GND, LED returns, divider bottom",0 V reference,Common return path for all low-voltage electronics,Platform,PCB ground reference,Concept defined
+BATTERY_ADC,"R1/R2 midpoint, C1, U1 PA0",0-3.3 V ADC input,Scaled battery-voltage measurement,Power monitor,Battery monitoring requirement,Concept defined
+SENSOR_I2C_SCL,"U1 PB6, U2 SCL, R3 bottom",3.3 V I2C,I2C clock to environmental sensor,Sensor driver,Sensor membrane opening,Concept defined
+SENSOR_I2C_SDA,"U1 PB7, U2 SDA, R4 bottom",3.3 V I2C,I2C data to environmental sensor,Sensor driver,Sensor membrane opening,Concept defined
+STATUS_LED,"U1 PA5, R5, D1",3.3 V GPIO,Heartbeat transmit and service feedback,Application,Visible indicator area,Concept defined
+FAULT_LED,"U1 PA6, R6, D2",3.3 V GPIO,Fault and low-battery visual indication,Application,Visible indicator area,Concept defined
+SERVICE_WAKE,"U1 PB3, SW1, 100k pull-up to 3V3",3.3 V GPIO input,Wake service/debug state from sealed input,Application,Sealed service/debug port,Concept defined
+RADIO_UART_TX,"U1 PA9, J2 RXD",3.3 V UART,MCU transmit to future radio module,Radio boundary,Antenna keep-out and module bay,Reserved
+RADIO_UART_RX,"U1 PA10, J2 TXD",3.3 V UART,MCU receive from future radio module,Radio boundary,Antenna keep-out and module bay,Reserved
+DEBUG_SWDIO,"U1 PA13, J1 SWDIO",3.3 V debug,Programming and debug data,Platform,Sealed service/debug port,Concept defined
+DEBUG_SWCLK,"U1 PA14, J1 SWCLK",3.3 V debug,Programming and debug clock,Platform,Sealed service/debug port,Concept defined
+NRST,"U1 NRST, J1 NRST, reset pull-up",3.3 V reset,External reset/debug support,Platform,Sealed service/debug port,Concept defined

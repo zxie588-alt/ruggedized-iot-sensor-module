@@ -17,7 +17,8 @@ This register prevents the project from looking more complete than it is.
 - Abaqus strap-mount concept FEA.
 - Abaqus corner-load concept FEA.
 - Abaqus screw-boss compression concept FEA.
-- Proteus-style electronics architecture and signal table.
+- Proteus electronics architecture and signal table.
+- Proteus-ready schematic package with component selection, netlist, power budget and pin map.
 - Keil/uVision firmware scaffold and ARMCLANG source compile verification.
 - Concept drawing register and SVG drawing sheets.
 - Assembly work instruction.
@@ -27,7 +28,7 @@ This register prevents the project from looking more complete than it is.
 
 ## Not Yet Completed
 
-- Proteus schematic/model file.
+- Native Proteus `.pdsprj` schematic/model file.
 - Device-pack-bound Keil/uVision target build.
 - Physical test data.
 - IP rating or compliance testing.
@@ -45,4 +46,4 @@ This register prevents the project from looking more complete than it is.
 
 ## Safe Current Claim
 
-Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, electronics/firmware architecture, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB and validated firmware remain future work.
+Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB, native Proteus capture and validated firmware remain future work.

@@ -3,10 +3,10 @@ Upper enclosure shell V2,1,Make,TBD,Main external protection,SolidWorks V2 model
 Lower enclosure shell V2,1,Make,TBD,PCB battery gasket strap and service interface,SolidWorks V2 model STEP/STL and FEA surrogate,Add detailed fillets and FEA iteration
 Elastomer gasket,1,Buy/Make,5,Seal between shells,SolidWorks V2 gasket and assembly callout,Define section and compression target
 M3 stainless screws,4,Buy,4,Perimeter compression,Screw boss rings and counterbore intent,Define fastener length and torque
-PCB assembly placeholder,1,Make/Reference,TBD,Electronics packaging reference,SolidWorks PCB envelope and pin map,Real schematic and PCB outline
+PCB assembly placeholder,1,Make/Reference,TBD,Electronics packaging reference,SolidWorks PCB envelope and Proteus-ready schematic package,Native Proteus capture and PCB outline
 Battery pack placeholder,1,Buy/Reference,15,Power source packaging,SolidWorks battery envelope and restraint clip,Select actual cell/pack
-Environmental sensor module,1,Buy,15,Sensor placeholder,Proteus-style architecture and firmware mock driver,Select exact sensor part
-MCU module,1,Buy,15,Control and communication,Keil scaffold ARMCLANG-verified source,Bind final MCU device pack
+Environmental sensor module,1,Buy,15,Sensor placeholder,Schematic package with BME280/BMP280-class candidate and firmware mock driver,Select exact sensor part
+MCU module,1,Buy,15,Control and communication,Keil scaffold ARMCLANG-verified source and STM32-class schematic candidate,Bind final MCU device pack
 Sealed debug port cover,1,Make,TBD,Service access,SolidWorks service port and SWD/service signal map,Detail seal and cover fastener
 Strap or bracket,1,Buy/Make,8,Field mounting,Strap lug CAD and Abaqus concept FEA,Physical pull test
 Pressure vent membrane placeholder,1,Buy,6,Pressure equalisation concept,Lid membrane clamp ring,Select membrane component

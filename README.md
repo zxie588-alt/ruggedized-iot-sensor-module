@@ -66,6 +66,7 @@ Step 3 completed three Abaqus concept load cases:
 Step 4 started with electronics and firmware architecture:
 
 - Proteus electronics architecture note and concept signal table.
+- Proteus-ready schematic evidence package with component candidates, connection-level netlist, power budget, firmware-aligned pin map, review checklist and SVG schematic.
 - Keil/uVision project scaffold using the local `UV4.exe` uVision launcher.
 - ARMCLANG-verifiable embedded C source structure.
 - State machine, mock sensor/power drivers, board pin map and firmware architecture notes.
@@ -82,4 +83,4 @@ Step 5 completed a concept engineering release package:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, native Proteus `.pdsprj` capture or certified compliance until those are actually completed. Remaining high-value targets are native Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.

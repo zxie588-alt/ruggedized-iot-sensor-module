@@ -1,0 +1,7 @@
+Mode,Assumption,MCU_mA,Sensor_mA,RegulatorIq_mA,Radio_mA,LED_mA,EstimatedTotal_mA,Notes
+Sleep,MCU stop mode sensor standby radio disabled LEDs off,0.008,0.001,0.020,0.002,0.000,0.031,Target state for most of field life
+Self test,MCU active sensor read LEDs brief radio off,6.000,0.700,0.020,0.002,1.000,7.722,Used during boot and service checks
+Sample/filter,MCU active I2C sensor conversion radio off LEDs off,5.000,0.700,0.020,0.002,0.000,5.722,Maps to SAMPLE and FILTER firmware states
+Transmit boundary,MCU active future radio transmit one LED optional,6.000,0.100,0.020,45.000,1.000,52.120,Placeholder until radio module is selected
+Low battery alert,MCU active ADC check fault LED blinking radio off,4.000,0.001,0.020,0.002,1.000,5.023,Firmware should limit duty cycle
+Service mode,MCU active SWD/debug attached LEDs available radio off,8.000,0.700,0.020,0.002,2.000,10.722,Used for bench/service only

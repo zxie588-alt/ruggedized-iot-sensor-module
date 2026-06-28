@@ -1,0 +1,12 @@
+Signal,MCU Pin,Direction,Electrical Domain,Schematic Ref,Firmware Module,Validation Check
+SENSOR_I2C_SCL,PB6,Output,3V3 open-drain with 4.7k pull-up,U1 PB6 to U2 SCL,sensor_driver,I2C clock toggles during SAMPLE
+SENSOR_I2C_SDA,PB7,Bidirectional,3V3 open-drain with 4.7k pull-up,U1 PB7 to U2 SDA,sensor_driver,I2C ACK observed in future Proteus/hardware test
+BATTERY_ADC,PA0,Input,ADC input from high-value divider,U1 PA0 from R1/R2 midpoint,power_monitor,ADC threshold enters LOW_BATTERY
+STATUS_LED,PA5,Output,GPIO through 1k resistor,U1 PA5 to R5/D1,application,Heartbeat blink in BOOT/SERVICE
+FAULT_LED,PA6,Output,GPIO through 1k resistor,U1 PA6 to R6/D2,application,Fault blink in LOW_BATTERY/FAULT
+SERVICE_WAKE,PB3,Input,GPIO pull-up sealed switch to GND,U1 PB3 to SW1,application,Debounced wake into SERVICE
+RADIO_UART_TX,PA9,Output,3V3 UART,U1 PA9 to J2 RXD,radio_boundary,Reserved transmit interface
+RADIO_UART_RX,PA10,Input,3V3 UART,U1 PA10 to J2 TXD,radio_boundary,Reserved receive interface
+DEBUG_SWDIO,PA13,Bidirectional,SWD debug,U1 PA13 to J1 SWDIO,platform,Keil debug connection
+DEBUG_SWCLK,PA14,Input,SWD debug,U1 PA14 to J1 SWCLK,platform,Keil debug clock
+NRST,NRST,Input,Reset pull-up and debug header,U1 NRST to J1 NRST,platform,Reset from debug header

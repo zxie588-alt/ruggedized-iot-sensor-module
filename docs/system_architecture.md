@@ -11,7 +11,7 @@
 
 ## Electronics Architecture
 
-Planned Proteus-level model:
+Proteus-ready schematic model:
 
 - MCU placeholder: ESP32 class or STM32 class module.
 - Environmental sensor placeholder: temperature/RH/pressure or generic field sensor.
@@ -20,6 +20,7 @@ Planned Proteus-level model:
 - Status LED.
 - Debug/programming port.
 - Optional wake button or reed switch.
+- Connection-level netlist, power budget and firmware-aligned pin map.
 
 Proteus is used for architecture and packaging support, not as a final PCB manufacturing release.
 

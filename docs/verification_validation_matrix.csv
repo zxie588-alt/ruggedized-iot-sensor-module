@@ -5,7 +5,7 @@ V-03,Gasket sealing path,CAD review and future spray test,Gasket groove and comp
 V-04,Service/debug access,CAD review and signal map,Service port CAD feature and SWD/service wake signals,Concept complete,Prototype service cover leak observation
 V-05,Battery restraint,CAD review and assembly instruction,Battery pocket and restraint clip intent,Concept complete,Shake/drop observation
 V-06,Firmware state control,Source-level compile,ARMCLANG compile verified for state-machine sources,Concept complete,Device-pack bound Keil build and hardware flash
-V-07,Electronics signal ownership,Architecture review,Proteus-style signal table and pin map,Concept complete,Real Proteus schematic capture
+V-07,Electronics signal ownership,Schematic package review,Proteus-ready schematic package netlist power budget and pin map,Concept complete,Native Proteus .pdsprj capture and ERC export
 V-08,Assembly repeatability,Work instruction review,Assembly work instruction and callout drawing,Concept complete,Dry-run assembly time and issue log
 V-09,Drop/corner robustness,Abaqus concept FEA,corner_load_static_v1 report and plots,Concept complete,Physical drop orientation test with photo log
 V-10,Thermal exposure,Planned logging,None yet,Pending,Internal/external thermal logging CSV

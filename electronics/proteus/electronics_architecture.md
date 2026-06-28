@@ -13,6 +13,16 @@
 - User indication: status LED and fault LED.
 - Communication: UART radio boundary for future module selection.
 
+## Schematic Evidence Package V1
+
+Folder: `schematic_v1/`
+
+- Candidate component table for MCU, I2C sensor, battery input, regulator, protection, LEDs, SWD/service port and radio boundary.
+- Connection-level netlist for `VBAT_RAW`, `VBAT_PROTECTED`, `REG_IN`, `3V3`, `GND`, `BATTERY_ADC`, I2C, LEDs, service wake, UART and SWD.
+- Early power budget for sleep, self-test, sample/filter, transmit-boundary, low-battery and service modes.
+- Firmware-aligned interface pin map matching the Keil/uVision scaffold.
+- SVG schematic concept for portfolio review.
+
 ## Proteus Boundary
 
-This folder currently documents schematic architecture and signal ownership. A final `.pdsprj` and PCB manufacturing output are not claimed yet.
+This folder currently documents schematic architecture, signal ownership and Proteus-ready schematic evidence. A final native `.pdsprj`, PCB layout, manufactured board and validated circuit simulation are not claimed yet.
