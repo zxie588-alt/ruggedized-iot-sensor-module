@@ -1,0 +1,18 @@
+{
+  "boundary_condition": "Lower enclosure bottom edge fixed as an early screw-line surrogate.",
+  "concept_yield_MPa": 40.0,
+  "elastic_modulus_MPa": 2200.0,
+  "element_family": "C3D10 tet-dominated solid mesh",
+  "evidence_boundary": "Concept FEA only. Geometry, supports and material data are simplified; no physical validation or certified safety factor is claimed.",
+  "factor_to_concept_yield": 25.472948151747097,
+  "job_name": "iot_strap_lug_static_v1",
+  "load_case": "150 N total strap pull in +Y direction, split between two rear lug hole reference points.",
+  "load_per_lug_N": 75.0,
+  "material": "PC-ABS concept",
+  "max_displacement_mm": 0.009594083763659,
+  "max_mises_MPa": 1.5702933073043823,
+  "mesh_seed_mm": 4.0,
+  "model_name": "strap_lug_static_v1",
+  "poisson_ratio": 0.37,
+  "total_pull_N": 150.0
+}

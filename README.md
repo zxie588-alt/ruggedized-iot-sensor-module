@@ -47,6 +47,14 @@ Step 2 completed with working SolidWorks CAD V1 and detailed CAD V2:
 
 The current CAD establishes package size, component stack-up, screw boss locations, gasket/lip intent, service access, strap mounting and assembly direction. It is still a portfolio concept model, not a production enclosure.
 
+Step 3 started with a completed Abaqus concept load case:
+
+- Strap-mount lug static pull model in Abaqus 2025.
+- 150 N total pull load split across two rear lug holes.
+- PC-ABS concept material, C3D10 solid mesh and simplified support boundary.
+- Result summary: 1.57 MPa max von Mises stress, 0.010 mm max displacement, concept yield ratio 25.47.
+- Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
+
 ## Evidence Boundary
 
-Current project content includes planning documents and SolidWorks concept CAD V1/V2. Do not claim physical testing, IP rating, production readiness, final PCB design or certified compliance until those are actually completed. Next technical evidence targets are drawing sheets, strap-mount/load-case FEA, Proteus electronics architecture and Keil firmware structure.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2 and one Abaqus concept FEA load case. Do not claim physical testing, IP rating, production readiness, final PCB design or certified compliance until those are actually completed. Next technical evidence targets are drawing sheets, corner-load FEA, Proteus electronics architecture and Keil firmware structure.

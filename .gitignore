@@ -5,6 +5,17 @@
 *.log
 *.lck
 *.jnl
+*.com
+*.dat
+*.msg
+*.prt
+*.sim
+*.sta
+*.023
+*.mdl
+*.stt
+*.res
+*.sel
 
 # Windows metadata
 Thumbs.db

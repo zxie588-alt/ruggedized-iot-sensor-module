@@ -1,0 +1,6 @@
+metric,value,unit
+total_pull,150.0,N
+load_per_lug,75.0,N
+max_mises,1.57029330730438,MPa
+max_displacement,0.009594083763659,mm
+factor_to_concept_yield,25.4729481517471,-
