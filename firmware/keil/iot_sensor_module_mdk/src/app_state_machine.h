@@ -22,6 +22,7 @@ typedef struct {
     uint8_t sensor_ok;
     uint8_t service_requested;
     uint8_t transmit_ok;
+    uint8_t reserved;
 } ModuleFrame;
 
 ModuleState module_next_state(ModuleState current, const ModuleFrame *frame);

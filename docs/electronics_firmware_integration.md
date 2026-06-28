@@ -28,8 +28,9 @@ This step connects the mechanical package to a plausible embedded electronics an
 
 ## Evidence Added
 
-- Keil/uVision project scaffold.
+- Keil/uVision ARMCM3 concept target project.
 - ARMCLANG-verifiable embedded C source structure.
+- uVision ARMCM3 concept target build with startup assembly, scatter file and 0-error/0-warning build log.
 - Pin map linking electronics signals to firmware ownership.
 - Proteus electronics architecture note and signal table.
 - Proteus-ready schematic package V1.
@@ -37,4 +38,4 @@ This step connects the mechanical package to a plausible embedded electronics an
 
 ## Evidence Boundary
 
-This step does not claim a final PCB, native Proteus `.pdsprj`, physical circuit test, RF certification, measured current consumption or flashed firmware. It shows integration planning and firmware architecture readiness.
+This step does not claim a final PCB, native Proteus `.pdsprj`, physical circuit test, RF certification, measured current consumption, final MCU binding or flashed firmware. It shows integration planning, firmware architecture readiness and a clean Keil/uVision concept target build.

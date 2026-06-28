@@ -10,7 +10,9 @@ Confirmed local tool:
 Current status:
 
 - Firmware architecture and source structure created.
-- uVision project XML scaffold added for review and future pack/device binding.
+- uVision ARMCM3 concept target added with startup assembly, scatter file and ARM Compiler 6 configuration.
+- uVision command-line build verified with `UV4.exe`: 0 errors, 0 warnings.
+- Program size from the verified target build: Code 500 bytes, RO-data 80 bytes, RW-data 0 bytes, ZI-data 1024 bytes.
 - Code is written as hardware-facing embedded C with explicit board abstraction and mock driver boundaries.
 - No production firmware, certified radio stack or final MCU pinout is claimed.
 
@@ -28,4 +30,4 @@ Firmware states:
 
 Evidence boundary:
 
-The current project demonstrates firmware architecture, state-machine design, battery/sensor fault handling and integration planning. It is not yet flashed to a physical board and does not claim validated low-power performance.
+The current project demonstrates firmware architecture, state-machine design, battery/sensor fault handling, local ARMCLANG source compilation and a clean uVision ARMCM3 concept target build. It is not yet flashed to a physical board and does not claim validated low-power performance or final product MCU binding.

@@ -30,10 +30,23 @@ node_modules/
 *.exe
 *.o
 *.obj
+*.d
+*.dep
+*.lnp
 firmware/**/build/
+firmware/**/build_uv4/
 firmware/**/.build_log.htm
+firmware/**/.sct
 firmware/**/keil_build_log.txt
 firmware/**/armclang_build_log.txt
+firmware/**/*.axf
+firmware/**/*.map
+firmware/**/*.crf
+firmware/**/*.lst
+firmware/**/*.htm
+firmware/**/*.d
+firmware/**/*.dep
+firmware/**/*.lnp
 
 # Local scratch
 _scratch/

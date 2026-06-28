@@ -10,14 +10,27 @@ Confirmed local tools:
 
 Verification performed:
 
-- uVision command line was able to open the project scaffold, but the scaffold still needs final target/device-pack binding before normal uVision build.
 - ARMCLANG source compile was run using `build_with_armclang.ps1`.
-- Files compiled successfully:
+- uVision command-line target build was run using `UV4.exe -b Ruggedized_IoT_Sensor_Module.uvprojx`.
+- The uVision build completed with process exit code 0.
+- uVision build result: `0 Error(s), 0 Warning(s)`.
+- Program size from the uVision build: Code 500 bytes, RO-data 80 bytes, RW-data 0 bytes, ZI-data 1024 bytes.
+- Build log evidence: `keil_uv4_build_log.txt`.
+- Files built successfully:
   - `src/main.c`
   - `src/app_state_machine.c`
   - `drivers/sensor_driver.c`
   - `drivers/power_monitor.c`
+  - `platform/startup_armcm3.s`
+
+Target notes:
+
+- Current target: generic ARMCM3 concept target.
+- Startup and vector table are provided in `platform/startup_armcm3.s`.
+- Linker memory layout is provided in `Ruggedized_IoT_Sensor_Module.sct`.
+- The project file records ARM Compiler 6.14 / ARMCLANG settings and on-chip ROM/RAM ranges.
+- Local workstation note: the installed Keil path and Keil `TOOLS.INI` path were aligned with a non-destructive directory junction. The repository itself does not require that absolute path.
 
 Boundary:
 
-This verifies source-level firmware structure and local ARM compiler availability. It does not claim flashing, hardware-in-the-loop testing, low-power current measurement or final MCU/device-pack configuration.
+This verifies source-level firmware structure, local ARM compiler availability and a clean uVision ARMCM3 concept target build. It does not claim flashing, hardware-in-the-loop testing, low-power current measurement, radio-stack validation or final product MCU/device-pack configuration.

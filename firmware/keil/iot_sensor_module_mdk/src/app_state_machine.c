@@ -41,9 +41,10 @@ ModuleState module_next_state(ModuleState current, const ModuleFrame *frame)
     case MODULE_STATE_SERVICE:
         return MODULE_STATE_SLEEP;
     case MODULE_STATE_FAULT:
-    default:
         return MODULE_STATE_FAULT;
     }
+
+    return MODULE_STATE_FAULT;
 }
 
 const char *module_state_name(ModuleState state)
@@ -66,7 +67,8 @@ const char *module_state_name(ModuleState state)
     case MODULE_STATE_SERVICE:
         return "SERVICE";
     case MODULE_STATE_FAULT:
-    default:
         return "FAULT";
     }
+
+    return "FAULT";
 }

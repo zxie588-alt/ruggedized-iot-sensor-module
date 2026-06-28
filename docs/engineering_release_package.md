@@ -17,7 +17,7 @@ Document status: concept release package for portfolio review.
 - Abaqus screw-boss compression concept FEA.
 - Proteus electronics architecture.
 - Proteus-ready schematic evidence package.
-- Keil/uVision firmware scaffold and ARMCLANG-verifiable C source.
+- Keil/uVision ARMCM3 concept target build with ARMCLANG-verifiable C source, startup file, scatter file and build log.
 - Thermal exposure simulation and risk actions.
 - Verification and validation matrix.
 
@@ -28,6 +28,7 @@ Document status: concept release package for portfolio review.
 - Sealing, fastening, mounting and service-access design intent.
 - Early FEA load-path validation.
 - Electronics/firmware signal ownership.
+- Embedded firmware build traceability.
 - Manufacturing and assembly thinking.
 - Clear evidence boundaries.
 

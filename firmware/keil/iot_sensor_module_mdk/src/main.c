@@ -14,6 +14,7 @@ static ModuleFrame build_frame(void)
     frame.sensor_ok = sensor.sensor_ok;
     frame.service_requested = 0U;
     frame.transmit_ok = 1U;
+    frame.reserved = 0U;
 
     return frame;
 }

@@ -20,7 +20,7 @@ Folder: `schematic_v1/`
 - Candidate component table for MCU, I2C sensor, battery input, regulator, protection, LEDs, SWD/service port and radio boundary.
 - Connection-level netlist for `VBAT_RAW`, `VBAT_PROTECTED`, `REG_IN`, `3V3`, `GND`, `BATTERY_ADC`, I2C, LEDs, service wake, UART and SWD.
 - Early power budget for sleep, self-test, sample/filter, transmit-boundary, low-battery and service modes.
-- Firmware-aligned interface pin map matching the Keil/uVision scaffold.
+- Firmware-aligned interface pin map matching the Keil/uVision ARMCM3 concept target.
 - SVG schematic concept for portfolio review.
 
 ## Proteus Boundary

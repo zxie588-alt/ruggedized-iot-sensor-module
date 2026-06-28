@@ -20,4 +20,4 @@ The firmware package shows how the ruggedized sensor module would move from low-
 
 - Sensor and battery drivers are mock implementations until MCU and exact parts are selected.
 - Radio transmit is represented as a firmware boundary, not as a certified RF stack.
-- The uVision project is a scaffold for review and future device-pack binding.
+- The uVision project now builds as a generic ARMCM3 concept target; final product MCU/device-pack binding remains future work.

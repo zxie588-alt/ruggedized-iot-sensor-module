@@ -11,5 +11,6 @@ SensorReading sensor_driver_read_mock(void)
     reading.temperature_c_x10 = 213;
     reading.humidity_percent_x10 = 645;
     reading.sensor_ok = 1U;
+    reading.reserved = 0U;
     return reading;
 }
