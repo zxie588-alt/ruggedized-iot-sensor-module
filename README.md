@@ -47,12 +47,16 @@ Step 2 completed with working SolidWorks CAD V1 and detailed CAD V2:
 
 The current CAD establishes package size, component stack-up, screw boss locations, gasket/lip intent, service access, strap mounting and assembly direction. It is still a portfolio concept model, not a production enclosure.
 
-Step 3 started with a completed Abaqus concept load case:
+Step 3 completed two Abaqus concept load cases:
 
 - Strap-mount lug static pull model in Abaqus 2025.
 - 150 N total pull load split across two rear lug holes.
 - PC-ABS concept material, C3D10 solid mesh and simplified support boundary.
 - Result summary: 1.57 MPa max von Mises stress, 0.010 mm max displacement, concept yield ratio 25.47.
+- Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
+- Enclosure corner-load equivalent static model in Abaqus 2025.
+- 120 N downward load applied to one outer corner patch with four screw-line support regions.
+- Result summary: 5.55 MPa max von Mises stress, 0.021 mm max displacement, concept yield ratio 7.21.
 - Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
 
 Step 4 started with electronics and firmware architecture:
@@ -74,4 +78,4 @@ Step 5 completed a concept engineering release package:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, one Abaqus concept FEA load case, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, corner-load FEA and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, two Abaqus concept FEA load cases, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.

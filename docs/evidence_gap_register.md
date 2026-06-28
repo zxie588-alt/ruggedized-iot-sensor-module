@@ -15,6 +15,7 @@ This register prevents the project from looking more complete than it is.
 - SolidWorks CAD V1/V2.
 - Exploded view renders.
 - Abaqus strap-mount concept FEA.
+- Abaqus corner-load concept FEA.
 - Proteus-style electronics architecture and signal table.
 - Keil/uVision firmware scaffold and ARMCLANG source compile verification.
 - Concept drawing register and SVG drawing sheets.
@@ -43,4 +44,4 @@ This register prevents the project from looking more complete than it is.
 
 ## Safe Current Claim
 
-Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, Abaqus concept FEA, electronics/firmware architecture, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB and validated firmware remain future work.
+Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, two Abaqus concept FEA load cases, electronics/firmware architecture, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB and validated firmware remain future work.

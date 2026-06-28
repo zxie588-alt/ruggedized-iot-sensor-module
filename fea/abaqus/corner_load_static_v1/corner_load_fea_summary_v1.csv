@@ -1,0 +1,6 @@
+metric,value,unit
+total_corner_load,120.0,N
+max_mises,5.54683589935303,MPa
+max_displacement,0.0209772828966379,mm
+factor_to_concept_yield,7.21131843916016,-
+corner_load_node_count,63,nodes

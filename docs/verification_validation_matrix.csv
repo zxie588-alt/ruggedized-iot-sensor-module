@@ -7,5 +7,5 @@ V-05,Battery restraint,CAD review and assembly instruction,Battery pocket and re
 V-06,Firmware state control,Source-level compile,ARMCLANG compile verified for state-machine sources,Concept complete,Device-pack bound Keil build and hardware flash
 V-07,Electronics signal ownership,Architecture review,Proteus-style signal table and pin map,Concept complete,Real Proteus schematic capture
 V-08,Assembly repeatability,Work instruction review,Assembly work instruction and callout drawing,Concept complete,Dry-run assembly time and issue log
-V-09,Drop/corner robustness,Planned FEA/test,None yet,Pending,Corner equivalent static FEA
+V-09,Drop/corner robustness,Abaqus concept FEA,corner_load_static_v1 report and plots,Concept complete,Physical drop orientation test with photo log
 V-10,Thermal exposure,Planned logging,None yet,Pending,Internal/external thermal logging CSV

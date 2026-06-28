@@ -1,0 +1,20 @@
+{
+  "boundary_condition": "Four screw-line support patches fixed as early fastening surrogate.",
+  "concept_yield_MPa": 40.0,
+  "corner_load_node_count": 63,
+  "elastic_modulus_MPa": 2200.0,
+  "element_family": "C3D10 tet-dominated solid mesh",
+  "evidence_boundary": "Concept FEA only. The model is a simplified enclosure plate surrogate; it is not a dynamic drop test or certified impact result.",
+  "factor_to_concept_yield": 7.2113184391601575,
+  "fixed_node_count": 9091,
+  "job_name": "iot_corner_load_static_v1",
+  "load_case": "120 N equivalent static load applied downward to one outer corner patch.",
+  "load_per_corner_node_N": -1.9047619047619047,
+  "material": "PC-ABS concept",
+  "max_displacement_mm": 0.020977282896637917,
+  "max_mises_MPa": 5.546835899353027,
+  "mesh_seed_mm": 5.0,
+  "model_name": "corner_load_static_v1",
+  "poisson_ratio": 0.37,
+  "total_corner_load_N": 120.0
+}

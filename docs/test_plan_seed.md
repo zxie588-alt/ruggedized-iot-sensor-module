@@ -13,8 +13,8 @@ This is the initial reliability and validation plan. Physical testing is future 
 
 - Purpose: evaluate likely corner and boss damage during handling.
 - Method: define repeatable orientations: front face, back face, corner, strap side.
-- Evidence: drop orientation fixture, equivalent FEA load case, future photo log.
-- Current status: planned.
+- Evidence: Abaqus corner-load equivalent static FEA completed; drop orientation fixture and future photo log still planned.
+- Current status: concept FEA completed, physical drop test planned.
 
 ## T-03 Spray Exposure Observation
 

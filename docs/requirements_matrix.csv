@@ -7,7 +7,7 @@ REQ-005,Support injection-moulding-aware geometry,DFM and product realism,Wall t
 REQ-006,Identify water ingress risks explicitly,Avoid false IP claims,Ingress risk register and test plan,DFMEA and future spray test,Planned
 REQ-007,Provide electronics architecture,Mechanical layout depends on PCB battery ports and sensors,Proteus schematic/model with MCU sensor battery regulator and LED,Proteus project export,Planned
 REQ-008,Provide firmware architecture,Shows embedded-system boundary without overclaiming,Sleep/read/transmit/fault-state pseudocode or Keil project,Keil/embedded C files,Planned
-REQ-009,Assess structural risk at strap mount,Mounting failure is high-visibility risk,Pull load case and displacement/stress plot,Abaqus or SolidWorks Simulation,Planned
-REQ-010,Assess corner/drop equivalent load,Handling damage risk,Equivalent static load case on corner/boss,Abaqus or SolidWorks Simulation,Planned
-REQ-011,Provide manufacturing package,Shows product-engineering maturity,BOM cost assembly sequence inspection points,Docs and CSV,Started
-REQ-012,Keep evidence boundary visible,Avoid overclaiming,Register of completed evidence and gaps,Evidence gap register,Started
+REQ-009,Assess structural risk at strap mount,Mounting failure is high-visibility risk,Pull load case and displacement/stress plot,Abaqus concept FEA,Concept complete
+REQ-010,Assess corner/drop equivalent load,Handling damage risk,Equivalent static load case on corner/boss,Abaqus concept FEA,Concept complete
+REQ-011,Provide manufacturing package,Shows product-engineering maturity,BOM cost assembly sequence inspection points,Docs and CSV,Concept complete
+REQ-012,Keep evidence boundary visible,Avoid overclaiming,Register of completed evidence and gaps,Evidence gap register,Concept complete

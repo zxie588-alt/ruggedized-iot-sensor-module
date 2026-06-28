@@ -13,6 +13,7 @@ Document status: concept release package for portfolio review.
 - DFM checklist.
 - Assembly work instruction.
 - Abaqus strap-mount lug concept FEA.
+- Abaqus enclosure corner-load concept FEA.
 - Proteus-style electronics architecture.
 - Keil/uVision firmware scaffold and ARMCLANG-verifiable C source.
 - Verification and validation matrix.
@@ -41,5 +42,6 @@ Document status: concept release package for portfolio review.
 1. 3D-print lower shell, lid and gasket surrogate.
 2. Run dry assembly and update work instruction.
 3. Run pull fixture test on strap lugs.
-4. Run spray observation with dye/tissue indicator.
-5. Log thermal behaviour under sunlight or lamp exposure.
+4. Run physical corner/drop orientation observation with photo log.
+5. Run spray observation with dye/tissue indicator.
+6. Log thermal behaviour under sunlight or lamp exposure.
