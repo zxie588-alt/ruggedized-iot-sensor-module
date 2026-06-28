@@ -10,3 +10,4 @@ V-08,Assembly repeatability,Work instruction review,Assembly work instruction an
 V-09,Drop/corner robustness,Abaqus concept FEA,corner_load_static_v1 report and plots,Concept complete,Physical drop orientation test with photo log
 V-10,Thermal exposure,Lumped thermal simulation,thermal_exposure_model_v1 CSV JSON plot and report,Simulation complete,Internal/external physical thermal logging CSV
 V-11,Screw-boss clamp compression,Abaqus concept FEA,screw_boss_compression_v1 report and plots,Concept complete,Physical torque/pull-out test with inspected boss section
+V-12,Drawing and inspection control,Drawing-control review,DWG-003 inspection-control sheet plus inspection_characteristics_v1 CTQ table,Concept complete,Supplier-reviewed GD&T drawing and first-article inspection record

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+  <rect width="1200" height="780" fill="#ffffff"/>
+  <text x="60" y="55" font-family="Arial" font-size="28" font-weight="700" fill="#172033">DWG-003: Ruggedized IoT Sensor Module V2 - Inspection Control Sheet</text>
+  <text x="60" y="86" font-family="Arial" font-size="16" fill="#526070">Concept datum and CTQ inspection plan. Units: mm. Not a supplier-released manufacturing drawing.</text>
+
+  <rect x="88" y="132" width="470" height="360" rx="28" fill="#f3f6fb" stroke="#172033" stroke-width="3"/>
+  <rect x="118" y="162" width="410" height="300" rx="18" fill="none" stroke="#6c7a89" stroke-width="3"/>
+  <circle cx="170" cy="215" r="22" fill="#ffffff" stroke="#172033" stroke-width="3"/>
+  <circle cx="475" cy="215" r="22" fill="#ffffff" stroke="#172033" stroke-width="3"/>
+  <circle cx="170" cy="407" r="22" fill="#ffffff" stroke="#172033" stroke-width="3"/>
+  <circle cx="475" cy="407" r="22" fill="#ffffff" stroke="#172033" stroke-width="3"/>
+  <rect x="230" y="228" width="188" height="56" fill="#ffffff" stroke="#172033" stroke-width="3"/>
+  <rect x="242" y="342" width="164" height="52" rx="5" fill="#fff8e8" stroke="#172033" stroke-width="3"/>
+  <rect x="558" y="282" width="58" height="92" fill="#f3f6fb" stroke="#172033" stroke-width="3"/>
+
+  <g font-family="Arial" font-size="16" fill="#172033">
+    <rect x="78" y="505" width="72" height="34" fill="#fff" stroke="#172033"/>
+    <text x="98" y="528">A</text>
+    <text x="160" y="528">Datum A: lower mounting face / enclosure base plane</text>
+    <rect x="78" y="548" width="72" height="34" fill="#fff" stroke="#172033"/>
+    <text x="98" y="571">B</text>
+    <text x="160" y="571">Datum B: gasket groove centreline / sealing path reference</text>
+    <rect x="78" y="591" width="72" height="34" fill="#fff" stroke="#172033"/>
+    <text x="98" y="614">C</text>
+    <text x="160" y="614">Datum C: service/cable boss axis for connector interface checks</text>
+  </g>
+
+  <g stroke="#2d6cdf" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M170 215 L705 162"/>
+    <path d="M475 215 L705 190"/>
+    <path d="M118 162 L705 218"/>
+    <path d="M558 328 L705 246"/>
+    <path d="M324 342 L705 274"/>
+    <path d="M324 228 L705 302"/>
+  </g>
+
+  <rect x="705" y="132" width="425" height="252" fill="#f7f8fb" stroke="#ccd3df"/>
+  <text x="725" y="160" font-family="Arial" font-size="18" font-weight="700" fill="#172033">Key CTQ / GD&amp;T-Style Controls</text>
+  <g font-family="Arial" font-size="15" fill="#172033">
+    <text x="725" y="190">IC-004: screw boss true position, dia 0.30 to A|B|C</text>
+    <text x="725" y="218">IC-003: gasket groove width 3.0 +/-0.2, continuous path</text>
+    <text x="725" y="246">IC-006: service port boss position +/-0.3 to A|B</text>
+    <text x="725" y="274">IC-009: battery pocket clearance +0.5/-0.0</text>
+    <text x="725" y="302">IC-005: PCB standoff height 8.0 +/-0.2</text>
+    <text x="725" y="330">IC-007: strap lug hole spacing 42.0 +/-0.3</text>
+    <text x="725" y="358">IC-008: lid compression rib height 1.2 +/-0.15</text>
+  </g>
+
+  <rect x="705" y="410" width="425" height="188" fill="#ffffff" stroke="#ccd3df"/>
+  <text x="725" y="438" font-family="Arial" font-size="18" font-weight="700" fill="#172033">Inspection Method Intent</text>
+  <g font-family="Arial" font-size="15" fill="#172033">
+    <text x="725" y="468">1. Caliper or CMM concept check for envelope dimensions.</text>
+    <text x="725" y="496">2. Pin gauge / fixture check for strap lug and screw pattern.</text>
+    <text x="725" y="524">3. Optical section check for gasket groove and rib height.</text>
+    <text x="725" y="552">4. Dry assembly log for PCB, battery and service-port fit.</text>
+    <text x="725" y="580">5. Physical spray, pull and thermal tests remain future evidence.</text>
+  </g>
+
+  <rect x="60" y="665" width="1080" height="66" fill="#f7f8fb" stroke="#ccd3df"/>
+  <text x="80" y="693" font-family="Arial" font-size="16" fill="#172033">Drawing control note: this sheet converts the concept model into inspectable CTQ characteristics, datum references and verification methods.</text>
+  <text x="80" y="718" font-family="Arial" font-size="16" fill="#172033">Boundary: final tolerances, datum symbols and material/process capability must be released after supplier and prototype review.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2d6cdf"/>
+    </marker>
+  </defs>
+</svg>

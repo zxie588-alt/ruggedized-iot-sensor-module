@@ -9,6 +9,7 @@ Document status: concept release package for portfolio review.
 - STEP/STL exports.
 - CAD design log.
 - Dimensioned overview drawing and assembly callout drawing.
+- Inspection-control drawing sheet and CTQ characteristics table.
 - Concept BOM.
 - DFM checklist.
 - Assembly work instruction.
@@ -25,6 +26,7 @@ Document status: concept release package for portfolio review.
 ## What This Package Demonstrates
 
 - Requirements-to-design traceability.
+- Requirements-to-inspection traceability.
 - Mechanical package design and internal packaging.
 - Sealing, fastening, mounting and service-access design intent.
 - Early FEA load-path validation.
@@ -41,6 +43,7 @@ Document status: concept release package for portfolio review.
 - Physical pull/drop/spray/thermal testing.
 - Final PCB design.
 - Fully populated native Proteus schematic and ERC.
+- Supplier-reviewed GD&T drawing release.
 - Flashed and validated firmware.
 - Supplier-reviewed injection moulding design.
 

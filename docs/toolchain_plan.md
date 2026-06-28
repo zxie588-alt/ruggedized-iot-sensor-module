@@ -15,6 +15,7 @@
 ## Tool Use Boundaries
 
 - SolidWorks is the primary visual and mechanical design tool.
+- Drawing-control evidence currently uses SVG/CSV concept sheets; AutoCAD or SolidWorks drawings can replace them when a production drawing format is needed.
 - Abaqus is used for three focused concept load cases, not full product certification.
 - Proteus supports electronics packaging, signal/power architecture and a native project container, not final PCB release.
 - Keil supports firmware structure, embedded C evidence and a concept ARMCM3 target build, not a complete production firmware unless final hardware is later defined.

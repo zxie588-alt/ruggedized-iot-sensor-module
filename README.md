@@ -78,6 +78,7 @@ Step 4 started with electronics and firmware architecture:
 Step 5 completed a concept engineering release package:
 
 - Drawing register and two concept drawing sheets.
+- Drawing control plan with DWG-003 inspection-control sheet and CTQ inspection characteristics table.
 - V2 concept BOM.
 - DFM checklist.
 - Assembly work instruction.
@@ -94,4 +95,4 @@ Step 6 completed a thermal exposure concept model:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, final product MCU/device-pack binding and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation, concept drawing-control evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture, supplier-approved production drawings or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, final product MCU/device-pack binding, supplier-reviewed production drawings and physical prototype testing.

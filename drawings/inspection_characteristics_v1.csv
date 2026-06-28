@@ -1,0 +1,11 @@
+ID,Feature,Nominal_mm,Tolerance_mm,DatumReference,InspectionMethod,Reason,Status,NextEvidence
+IC-001,Overall lower enclosure length,112.0,+/-0.5,A|B,Vernier caliper or CMM concept check,Controls package envelope and mating lid alignment,Concept defined,Check against final CAD drawing and printed prototype
+IC-002,Overall lower enclosure width,70.0,+/-0.5,A|B,Vernier caliper or CMM concept check,Controls enclosure footprint and mounting clearance,Concept defined,Check against final CAD drawing and printed prototype
+IC-003,Gasket groove continuous path width,3.0,+/-0.2,A|B,Optical inspection and section check,Sealing continuity and compression control,Concept defined,Prototype dye/spray observation and section check
+IC-004,Screw boss center position true position,0.0,diameter 0.30 relative to A|B|C,CMM or printed inspection jig,Lid compression repeatability and screw alignment,Concept defined,Final GD&T callout after CAD release
+IC-005,PCB standoff height,8.0,+/-0.2,A,Depth gauge or CMM,PCB support and battery clearance,Concept defined,Dry assembly measurement
+IC-006,Service port boss position,0.0,+/-0.3 relative to A|B,Caliper/CMM plus service-plug fit check,Service access without gasket interference,Concept defined,Prototype plug-fit inspection
+IC-007,Strap lug hole spacing,42.0,+/-0.3,A|B,Pin gauge or fixture,Mounting strap repeatability and pull-load path,Concept defined,Pull fixture test and inspected lug deformation
+IC-008,Lid-to-gasket compression rib height,1.2,+/-0.15,A,Depth gauge or section check,Seal compression without over-crushing gasket,Concept defined,Compression mark and spray observation
+IC-009,Battery pocket clearance,1.0,+0.5/-0.0,A|B,Caliper and dry fit,Prevents rattle while avoiding battery squeeze,Concept defined,Dry assembly issue log
+IC-010,Cable gland boss concentricity,0.0,diameter 0.40 relative to C,Pin gauge/CMM,Controls gland fit and cable strain path,Concept defined,Selected gland datasheet and prototype fit
