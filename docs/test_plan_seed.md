@@ -6,8 +6,8 @@ This is the initial reliability and validation plan. Physical testing is future 
 
 - Purpose: validate strap/bracket mount load path.
 - Method: mount enclosure to pull fixture and apply increasing tensile load.
-- Evidence: fixture CAD, load target, deformation/failure observation.
-- Current status: planned.
+- Evidence: Abaqus concept load case completed; physical fixture and deformation/failure observation still future work.
+- Current status: concept FEA completed, physical test planned.
 
 ## T-02 Drop Orientation Test
 
@@ -35,4 +35,4 @@ This is the initial reliability and validation plan. Physical testing is future 
 - Purpose: check that gasket, PCB, battery and screws can be assembled without ambiguity.
 - Method: assembly sequence review and timed dry run.
 - Evidence: work instruction, exploded view, issue log.
-- Current status: planned.
+- Current status: assembly work instruction completed; physical dry run planned.

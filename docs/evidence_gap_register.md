@@ -2,7 +2,7 @@
 
 This register prevents the project from looking more complete than it is.
 
-## Completed at Step 1
+## Completed Evidence
 
 - Project structure.
 - Project brief.
@@ -11,19 +11,27 @@ This register prevents the project from looking more complete than it is.
 - Toolchain plan.
 - Initial DFMEA.
 - Initial test plan.
-- Preliminary BOM.
-- Portfolio page placeholder.
+- Preliminary and V2 concept BOM.
+- SolidWorks CAD V1/V2.
+- Exploded view renders.
+- Abaqus strap-mount concept FEA.
+- Proteus-style electronics architecture and signal table.
+- Keil/uVision firmware scaffold and ARMCLANG source compile verification.
+- Concept drawing register and SVG drawing sheets.
+- Assembly work instruction.
+- DFM checklist.
+- Verification and validation matrix.
+- Portfolio page.
 
 ## Not Yet Completed
 
-- SolidWorks enclosure model.
-- Exploded view.
-- Engineering drawings.
-- Abaqus FEA results.
 - Proteus schematic/model file.
-- Keil/uVision firmware project.
+- Device-pack-bound Keil/uVision target build.
 - Physical test data.
 - IP rating or compliance testing.
+- Production-controlled 2D drawing set with GD&T.
+- Final PCB design.
+- Flashed firmware and hardware-in-the-loop test.
 
 ## Claims to Avoid
 
@@ -35,4 +43,4 @@ This register prevents the project from looking more complete than it is.
 
 ## Safe Current Claim
 
-Project initiated as a ruggedized outdoor IoT sensor module case study, with defined requirements, system architecture, toolchain plan, initial DFMEA, test strategy and portfolio page placeholder.
+Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, Abaqus concept FEA, electronics/firmware architecture, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB and validated firmware remain future work.

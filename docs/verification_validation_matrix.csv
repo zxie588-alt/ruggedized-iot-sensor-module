@@ -1,0 +1,11 @@
+ID,Requirement Link,Verification Method,Evidence Created,Status,Next Evidence
+V-01,Outdoor mounting strength,Abaqus concept FEA,strap_lug_static_v1 report and plots,Concept complete,Physical pull test with fixture
+V-02,Package envelope,SolidWorks CAD, V2 CAD and STEP/STL exports,Concept complete,2D drawing with checked dimensions
+V-03,Gasket sealing path,CAD review and future spray test,Gasket groove and compression rib modelled,Concept complete,Spray test with dye/tissue indicator
+V-04,Service/debug access,CAD review and signal map,Service port CAD feature and SWD/service wake signals,Concept complete,Prototype service cover leak observation
+V-05,Battery restraint,CAD review and assembly instruction,Battery pocket and restraint clip intent,Concept complete,Shake/drop observation
+V-06,Firmware state control,Source-level compile,ARMCLANG compile verified for state-machine sources,Concept complete,Device-pack bound Keil build and hardware flash
+V-07,Electronics signal ownership,Architecture review,Proteus-style signal table and pin map,Concept complete,Real Proteus schematic capture
+V-08,Assembly repeatability,Work instruction review,Assembly work instruction and callout drawing,Concept complete,Dry-run assembly time and issue log
+V-09,Drop/corner robustness,Planned FEA/test,None yet,Pending,Corner equivalent static FEA
+V-10,Thermal exposure,Planned logging,None yet,Pending,Internal/external thermal logging CSV

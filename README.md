@@ -63,6 +63,15 @@ Step 4 started with electronics and firmware architecture:
 - State machine, mock sensor/power drivers, board pin map and firmware architecture notes.
 - Portfolio diagrams connecting electronics blocks, firmware states and mechanical package constraints.
 
+Step 5 completed a concept engineering release package:
+
+- Drawing register and two concept drawing sheets.
+- V2 concept BOM.
+- DFM checklist.
+- Assembly work instruction.
+- Verification and validation matrix.
+- Engineering release package note with explicit evidence boundary.
+
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, one Abaqus concept FEA load case, and electronics/firmware architecture evidence. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Next technical evidence targets are drawing sheets, corner-load FEA and optional real Proteus schematic capture.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, one Abaqus concept FEA load case, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, corner-load FEA and physical prototype testing.
