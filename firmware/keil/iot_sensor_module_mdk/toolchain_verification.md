@@ -19,6 +19,7 @@ Verification performed:
 - Device-pack audit was performed and documented in `device_pack_audit_v1.md`.
 - `Keil.STM32L4xx_DFP` 3.0.0 was installed locally and checked with CMSIS `PackChk.exe`: 0 errors, 256 warnings.
 - `STM32L432KCUx` was selected as the next low-power candidate MCU path, but not yet claimed as a final board-specific firmware target.
+- Candidate pin allocation and porting sequence are documented in `stm32l432_candidate_pinout_v1.csv` and `stm32l432_porting_plan_v1.md`.
 - Files built successfully:
   - `src/main.c`
   - `src/app_state_machine.c`

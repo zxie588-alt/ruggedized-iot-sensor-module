@@ -32,6 +32,7 @@ This step connects the mechanical package to a plausible embedded electronics an
 - ARMCLANG-verifiable embedded C source structure.
 - uVision ARMCM3 concept target build with startup assembly, scatter file and 0-error/0-warning build log.
 - Keil device-pack audit with `Keil.STM32L4xx_DFP` 3.0.0 installed and `STM32L432KCUx` selected as a low-power candidate path.
+- Candidate STM32L432 pin allocation and firmware porting plan.
 - Pin map linking electronics signals to firmware ownership.
 - Proteus electronics architecture note and signal table.
 - Proteus-ready schematic package V1.

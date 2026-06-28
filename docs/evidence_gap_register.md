@@ -22,6 +22,7 @@ This register prevents the project from looking more complete than it is.
 - Native Proteus `.pdsprj` project container with `ROOT.DSN`, `ROOT.CDB`, `PROJECT.XML`, manifest and verification report.
 - Keil/uVision ARMCM3 concept target build with startup file, scatter file, ARMCLANG source compile and 0-error/0-warning uVision build log.
 - Keil device-pack audit with locally installed `Keil.STM32L4xx_DFP` 3.0.0, `PackChk` result and `STM32L432KCUx` candidate MCU path.
+- STM32L432 candidate pin allocation and board-specific firmware porting plan.
 - Thermal exposure simulation with CSV, JSON, SVG plot and report.
 - Concept drawing register and SVG drawing sheets.
 - Concept drawing-control package with DWG-003 inspection-control sheet and CTQ inspection characteristics table.
@@ -33,7 +34,7 @@ This register prevents the project from looking more complete than it is.
 ## Not Yet Completed
 
 - Fully populated native Proteus schematic sheet and ERC export.
-- Final board-specific low-power MCU/RTE/startup binding.
+- Final board-specific STM32L432 target build with startup/RTE integration.
 - Physical test data, including measured thermal logging.
 - IP rating or compliance testing.
 - Supplier-reviewed production-controlled 2D drawing set with final GD&T.
@@ -50,4 +51,4 @@ This register prevents the project from looking more complete than it is.
 
 ## Safe Current Claim
 
-Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture, verified native Proteus project container, clean Keil/uVision ARMCM3 concept target build, audited STM32L4 low-power device-pack readiness with `STM32L432KCUx` candidate path, thermal exposure simulation, concept drawing-control package, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB, fully populated native Proteus schematic capture, board-specific MCU/RTE/startup binding, supplier-approved production drawings and validated firmware remain future work.
+Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture, verified native Proteus project container, clean Keil/uVision ARMCM3 concept target build, audited STM32L4 low-power device-pack readiness with `STM32L432KCUx` candidate path, candidate pin allocation and porting plan, thermal exposure simulation, concept drawing-control package, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB, fully populated native Proteus schematic capture, board-specific STM32L432 startup/RTE target build, supplier-approved production drawings and validated firmware remain future work.

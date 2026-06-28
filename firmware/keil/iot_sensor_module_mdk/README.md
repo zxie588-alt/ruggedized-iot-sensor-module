@@ -14,6 +14,7 @@ Current status:
 - uVision command-line build verified with `UV4.exe`: 0 errors, 0 warnings.
 - Program size from the verified target build: Code 500 bytes, RO-data 80 bytes, RW-data 0 bytes, ZI-data 1024 bytes.
 - Keil device-pack audit added: `Keil.STM32L4xx_DFP` 3.0.0 installed and checked; `STM32L432KCUx` selected as the next low-power candidate MCU path.
+- Candidate STM32L432 pin allocation and porting plan added for the next board-specific firmware target.
 - Code is written as hardware-facing embedded C with explicit board abstraction and mock driver boundaries.
 - No production firmware, certified radio stack or final MCU pinout is claimed.
 

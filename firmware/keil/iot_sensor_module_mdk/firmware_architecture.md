@@ -20,4 +20,6 @@ The firmware package shows how the ruggedized sensor module would move from low-
 
 - Sensor and battery drivers are mock implementations until MCU and exact parts are selected.
 - Radio transmit is represented as a firmware boundary, not as a certified RF stack.
-- The uVision project now builds as a generic ARMCM3 concept target; final product MCU/device-pack binding remains future work.
+- The uVision project now builds as a generic ARMCM3 concept target.
+- `STM32L432KCUx` has been selected as the next low-power candidate MCU path, with a device-pack audit, candidate pin allocation and porting plan.
+- Final board-specific startup/system integration, RTE configuration, flashing and HIL testing remain future work.

@@ -1,0 +1,13 @@
+Signal,Candidate MCU Pin,STM32L4 Peripheral,Electrical Domain,Firmware Owner,Reason for Selection,Next Check
+SENSOR_I2C_SCL,PB6,I2C1_SCL,3V3 open-drain with external pull-up,Sensor driver,Common STM32 I2C1 SCL route and matches existing generic map,Confirm QFN-32 package escape and pull-up value
+SENSOR_I2C_SDA,PB7,I2C1_SDA,3V3 open-drain with external pull-up,Sensor driver,Common STM32 I2C1 SDA route and matches existing generic map,Confirm sensor address and bus capacitance
+BATTERY_ADC,PA0,ADC input,Scaled battery divider,Power monitor,Simple analog input close to power-monitor boundary,Check ADC channel mapping and divider leakage
+STATUS_LED,PA5,GPIO output,3V3 GPIO,Application,Simple visible heartbeat/service output,Confirm current limit and visibility through enclosure
+FAULT_LED,PA6,GPIO output,3V3 GPIO,Application,Independent visual fault output,Confirm LED current budget in low-battery state
+SERVICE_WAKE,PB3,GPIO input / debug-adjacent pin,3V3 pull-up input,Application,Available wake/service input near sealed service-port logic,Check conflict with SWO/JTAG use before final layout
+RADIO_UART_TX,PA9,USART1_TX,3V3 UART,Radio boundary,Standard USART1 transmit pin for future radio module,Confirm radio module voltage and sleep control
+RADIO_UART_RX,PA10,USART1_RX,3V3 UART,Radio boundary,Standard USART1 receive pin for future radio module,Confirm radio module boot/default pull states
+DEBUG_SWDIO,PA13,SWDIO,3V3 debug,Platform,Required programming/debug signal,Route only to sealed service connector
+DEBUG_SWCLK,PA14,SWCLK,3V3 debug,Platform,Required programming/debug clock,Route only to sealed service connector
+NRST,NRST,Reset,3V3 reset,Platform,Service reset and debug recovery,Confirm reset pull-up and ESD protection
+BOOT0,BOOT0,Boot mode select,Strap / test pad,Platform,Needed for recovery strategy on early prototypes,Decide whether exposed at service connector or test pad only

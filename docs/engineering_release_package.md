@@ -21,6 +21,7 @@ Document status: concept release package for portfolio review.
 - Native Proteus project container verification.
 - Keil/uVision ARMCM3 concept target build with ARMCLANG-verifiable C source, startup file, scatter file and build log.
 - Keil STM32L4 device-pack audit and `STM32L432KCUx` candidate MCU path.
+- STM32L432 candidate pin allocation and firmware porting plan.
 - Thermal exposure simulation and risk actions.
 - Verification and validation matrix.
 
