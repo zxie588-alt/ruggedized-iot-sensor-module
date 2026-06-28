@@ -31,6 +31,7 @@ This step connects the mechanical package to a plausible embedded electronics an
 - Keil/uVision ARMCM3 concept target project.
 - ARMCLANG-verifiable embedded C source structure.
 - uVision ARMCM3 concept target build with startup assembly, scatter file and 0-error/0-warning build log.
+- Keil device-pack audit with `Keil.STM32L4xx_DFP` 3.0.0 installed and `STM32L432KCUx` selected as a low-power candidate path.
 - Pin map linking electronics signals to firmware ownership.
 - Proteus electronics architecture note and signal table.
 - Proteus-ready schematic package V1.
@@ -39,4 +40,4 @@ This step connects the mechanical package to a plausible embedded electronics an
 
 ## Evidence Boundary
 
-This step does not claim a final PCB, fully populated native Proteus schematic sheet, physical circuit test, RF certification, measured current consumption, final MCU binding or flashed firmware. It shows integration planning, a verified native Proteus project container, firmware architecture readiness and a clean Keil/uVision concept target build.
+This step does not claim a final PCB, fully populated native Proteus schematic sheet, physical circuit test, RF certification, measured current consumption, board-specific MCU/RTE/startup binding or flashed firmware. It shows integration planning, a verified native Proteus project container, firmware architecture readiness, a clean Keil/uVision concept target build and low-power STM32L4 device-pack readiness.

@@ -72,6 +72,7 @@ Step 4 started with electronics and firmware architecture:
 - Startup assembly, linker scatter file and ARM Compiler 6 project settings added for a reproducible target build.
 - ARMCLANG source compile and uVision command-line target build verified.
 - uVision build result: 0 errors, 0 warnings; program size Code 500 bytes, RO-data 80 bytes, RW-data 0 bytes, ZI-data 1024 bytes.
+- Keil device-pack audit added: `Keil.STM32L4xx_DFP` 3.0.0 installed, checked with `PackChk`, and `STM32L432KCUx` selected as a low-power candidate MCU path.
 - State machine, mock sensor/power drivers, board pin map and firmware architecture notes.
 - Portfolio diagrams connecting electronics blocks, firmware states and mechanical package constraints.
 
@@ -95,4 +96,4 @@ Step 6 completed a thermal exposure concept model:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation, concept drawing-control evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture, supplier-approved production drawings or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, final product MCU/device-pack binding, supplier-reviewed production drawings and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, audited STM32L4 device-pack readiness with `STM32L432KCUx` candidate path, thermal exposure simulation, concept drawing-control evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture, board-specific MCU/RTE/startup binding, supplier-approved production drawings or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, board-specific `STM32L432KCUx` target binding, supplier-reviewed production drawings and physical prototype testing.

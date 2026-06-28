@@ -20,6 +20,7 @@ Document status: concept release package for portfolio review.
 - Proteus-ready schematic evidence package.
 - Native Proteus project container verification.
 - Keil/uVision ARMCM3 concept target build with ARMCLANG-verifiable C source, startup file, scatter file and build log.
+- Keil STM32L4 device-pack audit and `STM32L432KCUx` candidate MCU path.
 - Thermal exposure simulation and risk actions.
 - Verification and validation matrix.
 
@@ -33,6 +34,7 @@ Document status: concept release package for portfolio review.
 - Electronics/firmware signal ownership.
 - Electronics toolchain traceability.
 - Embedded firmware build traceability.
+- Low-power MCU candidate selection discipline.
 - Manufacturing and assembly thinking.
 - Clear evidence boundaries.
 
@@ -43,6 +45,7 @@ Document status: concept release package for portfolio review.
 - Physical pull/drop/spray/thermal testing.
 - Final PCB design.
 - Fully populated native Proteus schematic and ERC.
+- Board-specific MCU/RTE/startup firmware target binding.
 - Supplier-reviewed GD&T drawing release.
 - Flashed and validated firmware.
 - Supplier-reviewed injection moulding design.

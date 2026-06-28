@@ -6,7 +6,7 @@ REQ-004,Package PCB and battery without rattle or cable strain,Electronics relia
 REQ-005,Support injection-moulding-aware geometry,DFM and product realism,Wall thickness ribs draft screw bosses and radii,DFM checklist and screw-boss compression FEA,Concept complete
 REQ-006,Identify water ingress risks explicitly,Avoid false IP claims,Ingress risk register and test plan,DFMEA test plan and future spray test,Concept complete
 REQ-007,Provide electronics architecture,Mechanical layout depends on PCB battery ports and sensors,Proteus-ready schematic package with MCU sensor battery regulator LEDs SWD and radio boundary,Schematic evidence package native Proteus project container and future populated capture,Concept complete
-REQ-008,Provide firmware architecture,Shows embedded-system boundary without overclaiming,Sleep/read/transmit/fault-state pseudocode or Keil project,Keil/uVision ARMCM3 target build embedded C files and build log,Concept complete
+REQ-008,Provide firmware architecture,Shows embedded-system boundary without overclaiming,Sleep/read/transmit/fault-state pseudocode or Keil project with low-power MCU path,Keil/uVision ARMCM3 target build embedded C files build log and STM32L4 device-pack audit,Concept complete
 REQ-009,Assess structural risk at strap mount,Mounting failure is high-visibility risk,Pull load case and displacement/stress plot,Abaqus concept FEA,Concept complete
 REQ-010,Assess corner/drop equivalent load,Handling damage risk,Equivalent static load case on corner/boss,Abaqus concept FEA,Concept complete
 REQ-011,Provide manufacturing package,Shows product-engineering maturity,BOM cost assembly sequence inspection points,Docs and CSV,Concept complete

@@ -16,6 +16,9 @@ Verification performed:
 - uVision build result: `0 Error(s), 0 Warning(s)`.
 - Program size from the uVision build: Code 500 bytes, RO-data 80 bytes, RW-data 0 bytes, ZI-data 1024 bytes.
 - Build log evidence: `keil_uv4_build_log.txt`.
+- Device-pack audit was performed and documented in `device_pack_audit_v1.md`.
+- `Keil.STM32L4xx_DFP` 3.0.0 was installed locally and checked with CMSIS `PackChk.exe`: 0 errors, 256 warnings.
+- `STM32L432KCUx` was selected as the next low-power candidate MCU path, but not yet claimed as a final board-specific firmware target.
 - Files built successfully:
   - `src/main.c`
   - `src/app_state_machine.c`
@@ -26,6 +29,7 @@ Verification performed:
 Target notes:
 
 - Current target: generic ARMCM3 concept target.
+- Low-power candidate path: STM32L4 series, candidate device `STM32L432KCUx`.
 - Startup and vector table are provided in `platform/startup_armcm3.s`.
 - Linker memory layout is provided in `Ruggedized_IoT_Sensor_Module.sct`.
 - The project file records ARM Compiler 6.14 / ARMCLANG settings and on-chip ROM/RAM ranges.
@@ -33,4 +37,4 @@ Target notes:
 
 Boundary:
 
-This verifies source-level firmware structure, local ARM compiler availability and a clean uVision ARMCM3 concept target build. It does not claim flashing, hardware-in-the-loop testing, low-power current measurement, radio-stack validation or final product MCU/device-pack configuration.
+This verifies source-level firmware structure, local ARM compiler availability, a clean uVision ARMCM3 concept target build and low-power STM32L4 device-pack readiness. It does not claim flashing, hardware-in-the-loop testing, low-power current measurement, radio-stack validation, final schematic pinout or completed board-specific MCU/RTE/startup binding.

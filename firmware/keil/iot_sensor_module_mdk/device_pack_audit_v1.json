@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-29",
+  "keil_root": "D:\\游戏专用\\keil",
+  "uv4_executable": "D:\\游戏专用\\keil\\UV4\\UV4.exe",
+  "installed_packs_verified": [
+    {
+      "pack": "ARM.CMSIS",
+      "version": "5.7.0",
+      "pdsc": "ARM\\CMSIS\\5.7.0\\ARM.CMSIS.pdsc"
+    },
+    {
+      "pack": "ARM.CMSIS-Driver",
+      "version": "2.6.0",
+      "pdsc": "ARM\\CMSIS-Driver\\2.6.0\\ARM.CMSIS-Driver.pdsc"
+    },
+    {
+      "pack": "Keil.ARM_Compiler",
+      "version": "1.6.3",
+      "pdsc": "Keil\\ARM_Compiler\\1.6.3\\Keil.ARM_Compiler.pdsc"
+    },
+    {
+      "pack": "Keil.MDK-Middleware",
+      "version": "7.11.1",
+      "pdsc": "Keil\\MDK-Middleware\\7.11.1\\Keil.MDK-Middleware.pdsc"
+    },
+    {
+      "pack": "Keil.STM32F1xx_DFP",
+      "version": "1.0.5",
+      "pdsc": "Keil\\STM32F1xx_DFP\\1.0.5\\Keil.STM32F1xx_DFP.pdsc"
+    },
+    {
+      "pack": "Keil.STM32L4xx_DFP",
+      "version": "3.0.0",
+      "pdsc": "Keil\\STM32L4xx_DFP\\3.0.0\\Keil.STM32L4xx_DFP.pdsc"
+    }
+  ],
+  "stm32l4_pack_install": {
+    "source_url": "https://www.keil.com/pack/Keil.STM32L4xx_DFP.3.0.0.pack",
+    "pack_sha256": "EC29ABFCA07C7B1B8D5F84D2517BD1B9E1523A7C79A5FAE8F40B2ACB3E2020D4",
+    "pdsc_sha256": "5F1000A427974D3697950DE5DBFFFD9E5188F0376B7584D5B8549E72EC214878",
+    "packchk_result": "0 errors, 256 warnings",
+    "warning_boundary": "Warnings indicate missing startup/RTE components for device-level board ports; they do not block pack readiness evidence."
+  },
+  "candidate_mcu": {
+    "device": "STM32L432KCUx",
+    "vendor": "STMicroelectronics",
+    "family": "STM32L4 low-power series",
+    "package": "QFN-32",
+    "flash_bytes_hex": "0x00040000",
+    "flash_kb": 256,
+    "compile_define": "STM32L432xx",
+    "svd": "CMSIS/SVD/STM32L4x2.svd",
+    "flash_algorithm": "CMSIS/Flash/STM32L4xx_256.FLM"
+  },
+  "boundary": [
+    "No final schematic pinout is claimed.",
+    "No board-specific startup/system file is claimed.",
+    "No completed Keil RTE target is claimed.",
+    "No flashed hardware or HIL test is claimed.",
+    "No measured low-power current is claimed."
+  ]
+}

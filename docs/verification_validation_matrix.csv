@@ -4,7 +4,7 @@ V-02,Package envelope,SolidWorks CAD, V2 CAD and STEP/STL exports,Concept comple
 V-03,Gasket sealing path,CAD review and future spray test,Gasket groove and compression rib modelled,Concept complete,Spray test with dye/tissue indicator
 V-04,Service/debug access,CAD review and signal map,Service port CAD feature and SWD/service wake signals,Concept complete,Prototype service cover leak observation
 V-05,Battery restraint,CAD review and assembly instruction,Battery pocket and restraint clip intent,Concept complete,Shake/drop observation
-V-06,Firmware state control,ARMCLANG compile and Keil/uVision target build,ARMCLANG source compile plus uVision ARMCM3 build log with 0 errors and 0 warnings,Concept complete,Final MCU device-pack binding hardware flash and HIL test
+V-06,Firmware state control,ARMCLANG compile Keil/uVision target build and device-pack audit,ARMCLANG source compile uVision ARMCM3 build log with 0 errors and 0 warnings plus STM32L4xx DFP audit and STM32L432KCUx candidate path,Concept complete,Board-specific STM32L432KCUx startup/RTE target binding hardware flash and HIL test
 V-07,Electronics signal ownership,Schematic package and native project container review,Proteus-ready schematic package plus verified native Proteus .pdsprj project container,Concept complete,Fully populated native Proteus schematic sheet and ERC export
 V-08,Assembly repeatability,Work instruction review,Assembly work instruction and callout drawing,Concept complete,Dry-run assembly time and issue log
 V-09,Drop/corner robustness,Abaqus concept FEA,corner_load_static_v1 report and plots,Concept complete,Physical drop orientation test with photo log

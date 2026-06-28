@@ -21,6 +21,7 @@ Proteus-ready schematic model:
 - Debug/programming port.
 - Optional wake button or reed switch.
 - Connection-level netlist, power budget and firmware-aligned pin map.
+- Low-power MCU candidate path: STM32L4 series, currently audited against `STM32L432KCUx`.
 
 Proteus is used for architecture and packaging support, not as a final PCB manufacturing release.
 
@@ -34,6 +35,8 @@ Planned Keil / embedded C states:
 - Transmit or log event.
 - Fault state for low battery, sensor missing or enclosure-open input.
 - Service/debug mode.
+
+The current Keil evidence uses a generic ARMCM3 concept target for clean local builds, with an audited STM32L4 device-pack path for the next board-specific target.
 
 ## Validation Architecture
 
