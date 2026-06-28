@@ -26,7 +26,7 @@ The goal is not to claim a certified commercial product. The goal is to show a r
 - `exports/` - STEP/STL neutral CAD exports.
 - `drawings/` - 2D drawing sheets and manufacturing/fixture layouts.
 - `electronics/proteus/` - Proteus schematic/model files and electronics architecture notes.
-- `firmware/keil/` - Keil MDK/uVision project placeholder and firmware plan.
+- `firmware/keil/` - Keil MDK/uVision concept target and firmware plan.
 - `firmware/embedded_c/` - portable embedded C skeletons if Keil project export is not available.
 - `fea/abaqus/` - Abaqus model files, load case notes and result exports.
 - `docs/` - requirements, DFMEA, test plan, DFM note and evidence register.
@@ -67,6 +67,7 @@ Step 4 started with electronics and firmware architecture:
 
 - Proteus electronics architecture note and concept signal table.
 - Proteus-ready schematic evidence package with component candidates, connection-level netlist, power budget, firmware-aligned pin map, review checklist and SVG schematic.
+- Native Proteus 8.13 `.pdsprj` project container added and verified with `ROOT.DSN`, `ROOT.CDB`, `PROJECT.XML`, manifest and verification report.
 - Keil/uVision ARMCM3 concept target using the local `UV4.exe` uVision launcher.
 - Startup assembly, linker scatter file and ARM Compiler 6 project settings added for a reproducible target build.
 - ARMCLANG source compile and uVision command-line target build verified.
@@ -93,4 +94,4 @@ Step 6 completed a thermal exposure concept model:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, native Proteus `.pdsprj` capture or certified compliance until those are actually completed. Remaining high-value targets are native Proteus schematic capture, final product MCU/device-pack binding and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, final product MCU/device-pack binding and physical prototype testing.

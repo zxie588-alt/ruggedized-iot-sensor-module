@@ -34,8 +34,9 @@ This step connects the mechanical package to a plausible embedded electronics an
 - Pin map linking electronics signals to firmware ownership.
 - Proteus electronics architecture note and signal table.
 - Proteus-ready schematic package V1.
+- Native Proteus `.pdsprj` project container with manifest and verification report.
 - Architecture diagrams for portfolio display.
 
 ## Evidence Boundary
 
-This step does not claim a final PCB, native Proteus `.pdsprj`, physical circuit test, RF certification, measured current consumption, final MCU binding or flashed firmware. It shows integration planning, firmware architecture readiness and a clean Keil/uVision concept target build.
+This step does not claim a final PCB, fully populated native Proteus schematic sheet, physical circuit test, RF certification, measured current consumption, final MCU binding or flashed firmware. It shows integration planning, a verified native Proteus project container, firmware architecture readiness and a clean Keil/uVision concept target build.

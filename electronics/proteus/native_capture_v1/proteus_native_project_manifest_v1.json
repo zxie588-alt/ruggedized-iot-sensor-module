@@ -1,0 +1,34 @@
+{
+  "project_file": "ruggedized_iot_sensor_module_v1.pdsprj",
+  "proteus_file_type": "Proteus PDS project ZIP container",
+  "file_size_bytes": 10562,
+  "sha256": "b4800b9bde406fd9ee91b5728a862fd7a9458fe8bdd18b850485ca744f1ca2e5",
+  "entries": [
+    {
+      "name": "SCRIPTS/PWRRAILS.DAT",
+      "uncompressed_bytes": 17,
+      "compressed_bytes": 19
+    },
+    {
+      "name": "ROOT.CDB",
+      "uncompressed_bytes": 118,
+      "compressed_bytes": 52
+    },
+    {
+      "name": "ROOT.DSN",
+      "uncompressed_bytes": 65076,
+      "compressed_bytes": 9878
+    },
+    {
+      "name": "PROJECT.XML",
+      "uncompressed_bytes": 249,
+      "compressed_bytes": 193
+    }
+  ],
+  "required_entries_present": true,
+  "missing_entries": [],
+  "root_dsn_uncompressed_bytes": 65076,
+  "project_xml_excerpt": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<PROJECT>\n <TIMESTAMP RELEASE=\"813\" FILEVER=\"830\" MODIFIED=\"1782644934\" CUSTID=\"175675344\" CREATED=\"1782644934\"/>\n <VARIANTS/>\n <SCRIPTS>\n  <STRING>PWRRAILS.DAT</STRING>\n </SCRIPTS>\n</PROJECT>",
+  "status": "native_project_container_verified",
+  "evidence_boundary": "This verifies a native Proteus project container created by Proteus 8.13. It does not claim a fully populated native schematic capture or ERC result."
+}

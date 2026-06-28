@@ -19,6 +19,7 @@ This register prevents the project from looking more complete than it is.
 - Abaqus screw-boss compression concept FEA.
 - Proteus electronics architecture and signal table.
 - Proteus-ready schematic package with component selection, netlist, power budget and pin map.
+- Native Proteus `.pdsprj` project container with `ROOT.DSN`, `ROOT.CDB`, `PROJECT.XML`, manifest and verification report.
 - Keil/uVision ARMCM3 concept target build with startup file, scatter file, ARMCLANG source compile and 0-error/0-warning uVision build log.
 - Thermal exposure simulation with CSV, JSON, SVG plot and report.
 - Concept drawing register and SVG drawing sheets.
@@ -29,7 +30,7 @@ This register prevents the project from looking more complete than it is.
 
 ## Not Yet Completed
 
-- Native Proteus `.pdsprj` schematic/model file.
+- Fully populated native Proteus schematic sheet and ERC export.
 - Final product MCU/device-pack binding.
 - Physical test data, including measured thermal logging.
 - IP rating or compliance testing.
@@ -47,4 +48,4 @@ This register prevents the project from looking more complete than it is.
 
 ## Safe Current Claim
 
-Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture, clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB, native Proteus capture, final MCU binding and validated firmware remain future work.
+Ruggedized outdoor IoT sensor module portfolio project with requirements, SolidWorks CAD V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture, verified native Proteus project container, clean Keil/uVision ARMCM3 concept target build, thermal exposure simulation, concept BOM, assembly instruction, DFM checklist, verification matrix and portfolio page. Physical testing, IP rating, final PCB, fully populated native Proteus schematic capture, final MCU binding and validated firmware remain future work.

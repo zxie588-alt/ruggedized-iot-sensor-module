@@ -22,7 +22,8 @@ Folder: `schematic_v1/`
 - Early power budget for sleep, self-test, sample/filter, transmit-boundary, low-battery and service modes.
 - Firmware-aligned interface pin map matching the Keil/uVision ARMCM3 concept target.
 - SVG schematic concept for portfolio review.
+- Native Proteus project container in `native_capture_v1/` with manifest and verification report.
 
 ## Proteus Boundary
 
-This folder currently documents schematic architecture, signal ownership and Proteus-ready schematic evidence. A final native `.pdsprj`, PCB layout, manufactured board and validated circuit simulation are not claimed yet.
+This folder currently documents schematic architecture, signal ownership, Proteus-ready schematic evidence and a native `.pdsprj` project container. A fully populated native schematic sheet, PCB layout, manufactured board and validated circuit simulation are not claimed yet.

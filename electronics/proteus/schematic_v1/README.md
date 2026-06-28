@@ -17,4 +17,4 @@ The schematic package is designed around a low-power STM32-class MCU, an I2C env
 
 ## Proteus Boundary
 
-Proteus 8 Professional is confirmed installed locally. This package is Proteus-ready schematic evidence, but it does not yet claim a native Proteus `.pdsprj` capture, PCB layout, simulated circuit result or manufactured PCB.
+Proteus 8 Professional is confirmed installed locally, and `../native_capture_v1/` now contains a verified native `.pdsprj` project container. This package is still the controlled source for schematic intent; it does not yet claim a fully populated native Proteus schematic sheet, PCB layout, simulated circuit result or manufactured PCB.
