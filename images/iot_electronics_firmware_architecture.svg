@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f8fb"/>
+  <text x="60" y="70" font-family="Arial" font-size="34" font-weight="700" fill="#172033">Electronics + Firmware Architecture</text>
+  <text x="60" y="108" font-family="Arial" font-size="18" fill="#526070">Ruggedized outdoor IoT sensor module concept: Proteus blocks, Keil/uVision firmware states, and mechanical package interfaces.</text>
+
+  <rect x="60" y="150" width="300" height="420" rx="12" fill="#ffffff" stroke="#ccd3df"/>
+  <text x="90" y="190" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Proteus Blocks</text>
+  <text x="90" y="235" font-family="Arial" font-size="18" fill="#172033">2-cell battery pack</text>
+  <text x="90" y="275" font-family="Arial" font-size="18" fill="#172033">3V3 regulator</text>
+  <text x="90" y="315" font-family="Arial" font-size="18" fill="#172033">I2C environmental sensor</text>
+  <text x="90" y="355" font-family="Arial" font-size="18" fill="#172033">Battery ADC divider</text>
+  <text x="90" y="395" font-family="Arial" font-size="18" fill="#172033">SWD service header</text>
+  <text x="90" y="435" font-family="Arial" font-size="18" fill="#172033">Status / fault LEDs</text>
+  <text x="90" y="475" font-family="Arial" font-size="18" fill="#172033">UART radio boundary</text>
+
+  <rect x="450" y="150" width="300" height="420" rx="12" fill="#ffffff" stroke="#ccd3df"/>
+  <text x="480" y="190" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Keil Firmware</text>
+  <text x="480" y="235" font-family="Arial" font-size="18" fill="#172033">BOOT -> SELF_TEST</text>
+  <text x="480" y="275" font-family="Arial" font-size="18" fill="#172033">SLEEP -> SAMPLE</text>
+  <text x="480" y="315" font-family="Arial" font-size="18" fill="#172033">FILTER -> TRANSMIT</text>
+  <text x="480" y="355" font-family="Arial" font-size="18" fill="#172033">LOW_BATTERY handling</text>
+  <text x="480" y="395" font-family="Arial" font-size="18" fill="#172033">FAULT handling</text>
+  <text x="480" y="435" font-family="Arial" font-size="18" fill="#172033">SERVICE mode</text>
+  <text x="480" y="475" font-family="Arial" font-size="18" fill="#172033">Mock drivers now, MCU binding later</text>
+
+  <rect x="840" y="150" width="300" height="420" rx="12" fill="#ffffff" stroke="#ccd3df"/>
+  <text x="870" y="190" font-family="Arial" font-size="24" font-weight="700" fill="#172033">Mechanical Links</text>
+  <text x="870" y="235" font-family="Arial" font-size="18" fill="#172033">PCB envelope in CAD</text>
+  <text x="870" y="275" font-family="Arial" font-size="18" fill="#172033">Battery retention clips</text>
+  <text x="870" y="315" font-family="Arial" font-size="18" fill="#172033">Sealed service/debug port</text>
+  <text x="870" y="355" font-family="Arial" font-size="18" fill="#172033">Sensor membrane opening</text>
+  <text x="870" y="395" font-family="Arial" font-size="18" fill="#172033">Cable gland clearance</text>
+  <text x="870" y="435" font-family="Arial" font-size="18" fill="#172033">FEA-backed strap lugs</text>
+
+  <path d="M365 360 C410 360 405 360 445 360" fill="none" stroke="#2d6cdf" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M755 360 C800 360 795 360 835 360" fill="none" stroke="#2d6cdf" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2d6cdf"/>
+    </marker>
+  </defs>
+  <text x="406" y="340" font-family="Arial" font-size="16" fill="#2d6cdf">signals</text>
+  <text x="790" y="340" font-family="Arial" font-size="16" fill="#2d6cdf">package constraints</text>
+</svg>

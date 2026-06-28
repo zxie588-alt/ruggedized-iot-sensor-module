@@ -1,17 +1,19 @@
 # Keil Firmware Folder
 
-Planned outputs:
+Confirmed local tool:
 
-- Keil MDK/uVision project if the executable and MCU pack are available.
-- Embedded C skeleton for state machine:
-  - sleep
-  - wake
-  - read sensor
-  - validate data
-  - transmit/log
-  - fault handling
-  - service/debug mode
+- Keil/uVision launcher: `D:\...\keil\UV4\UV4.exe`
+- ARM Compiler 6.14: `armclang.exe`
 
-Current status:
+Current outputs:
 
-Keil USB drivers were detected. The uVision executable path will be verified during the firmware step.
+- `iot_sensor_module_mdk/` Keil/uVision-oriented project scaffold.
+- Embedded C state machine.
+- Mock sensor and power-monitor drivers.
+- Board pin map.
+- Firmware architecture note.
+- Toolchain verification note.
+
+Boundary:
+
+The current firmware package verifies architecture and source-level build structure. It does not claim flashed firmware, final MCU/device-pack binding, hardware-in-the-loop testing or measured low-power performance.

@@ -1,0 +1,17 @@
+#ifndef BOARD_PINS_H
+#define BOARD_PINS_H
+
+typedef enum {
+    PIN_SENSOR_I2C_SCL = 0,
+    PIN_SENSOR_I2C_SDA,
+    PIN_BATTERY_ADC,
+    PIN_STATUS_LED,
+    PIN_FAULT_LED,
+    PIN_SERVICE_WAKE,
+    PIN_RADIO_UART_TX,
+    PIN_RADIO_UART_RX,
+    PIN_DEBUG_SWDIO,
+    PIN_DEBUG_SWCLK
+} BoardPin;
+
+#endif

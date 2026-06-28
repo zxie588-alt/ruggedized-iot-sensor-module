@@ -1,0 +1,11 @@
+Signal,Direction,Concept Pin,Electrical Domain,Proteus Block,Firmware Owner,Notes
+SENSOR_I2C_SCL,Output,PB6,3V3,Environmental sensor,Sensor driver,I2C clock placeholder
+SENSOR_I2C_SDA,Bidirectional,PB7,3V3,Environmental sensor,Sensor driver,I2C data placeholder
+BATTERY_ADC,Input,PA0,ADC/Battery divider,Battery monitor,Power monitor,Scaled battery voltage
+STATUS_LED,Output,PA5,3V3,Status LED,Application,Heartbeat and transmit state
+FAULT_LED,Output,PA6,3V3,Fault LED,Application,Fault and low battery indication
+SERVICE_WAKE,Input,PB3,3V3 pull-up,Debug/service switch,Application,Wakes service mode
+RADIO_UART_TX,Output,PA9,3V3,Radio module,Radio boundary,Future radio integration
+RADIO_UART_RX,Input,PA10,3V3,Radio module,Radio boundary,Future radio integration
+DEBUG_SWDIO,Bidirectional,PA13,3V3,Debug header,Platform,SWD programming/debug
+DEBUG_SWCLK,Input,PA14,3V3,Debug header,Platform,SWD programming/debug

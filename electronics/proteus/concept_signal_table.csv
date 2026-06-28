@@ -1,0 +1,10 @@
+Block,Signal,To,Voltage/Frequency,Firmware Owner,Validation Intent
+Battery pack,VBAT,Regulator,2-cell Li-ion,Power monitor,Battery threshold and fault handling
+Regulator,3V3,MCU/Sensor/Radio,3.3 V,Platform,Power rail budget
+Battery divider,BATTERY_ADC,MCU ADC,0-3.3 V scaled,Power monitor,Low-battery transition
+Environmental sensor,I2C_SCL/I2C_SDA,MCU I2C,3.3 V,Sensor driver,Sensor read path
+Status LED,STATUS_LED,MCU GPIO,3.3 V,Application,State indication
+Fault LED,FAULT_LED,MCU GPIO,3.3 V,Application,Fault indication
+Service switch,SERVICE_WAKE,MCU GPIO,3.3 V pull-up,Application,Sealed service-mode entry
+Radio module,UART_TX/UART_RX,MCU UART,3.3 V,Radio boundary,Future transmit/log interface
+SWD header,SWDIO/SWCLK,MCU debug,3.3 V,Platform,Keil debug/programming path

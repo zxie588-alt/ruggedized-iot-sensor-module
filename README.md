@@ -55,6 +55,14 @@ Step 3 started with a completed Abaqus concept load case:
 - Result summary: 1.57 MPa max von Mises stress, 0.010 mm max displacement, concept yield ratio 25.47.
 - Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
 
+Step 4 started with electronics and firmware architecture:
+
+- Proteus electronics architecture note and concept signal table.
+- Keil/uVision project scaffold using the local `UV4.exe` uVision launcher.
+- ARMCLANG-verifiable embedded C source structure.
+- State machine, mock sensor/power drivers, board pin map and firmware architecture notes.
+- Portfolio diagrams connecting electronics blocks, firmware states and mechanical package constraints.
+
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2 and one Abaqus concept FEA load case. Do not claim physical testing, IP rating, production readiness, final PCB design or certified compliance until those are actually completed. Next technical evidence targets are drawing sheets, corner-load FEA, Proteus electronics architecture and Keil firmware structure.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, one Abaqus concept FEA load case, and electronics/firmware architecture evidence. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Next technical evidence targets are drawing sheets, corner-load FEA and optional real Proteus schematic capture.

@@ -28,6 +28,12 @@ node_modules/
 
 # Compiled helper binaries
 *.exe
+*.o
+*.obj
+firmware/**/build/
+firmware/**/.build_log.htm
+firmware/**/keil_build_log.txt
+firmware/**/armclang_build_log.txt
 
 # Local scratch
 _scratch/
