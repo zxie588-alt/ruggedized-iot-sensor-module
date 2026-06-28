@@ -29,6 +29,7 @@ This register prevents the project from looking more complete than it is.
 - Assembly work instruction.
 - DFM checklist.
 - Verification and validation matrix.
+- Software completion boundary note.
 - Portfolio page.
 
 ## Not Yet Completed
@@ -48,6 +49,10 @@ This register prevents the project from looking more complete than it is.
 - Do not claim completed physical testing.
 - Do not claim final PCB design.
 - Do not claim validated firmware.
+
+## Boundary Classification
+
+See `software_completion_boundary_v1.md` for the current split between software-completed evidence, proprietary/interactive tool blockers, hardware-test blockers and supplier-review blockers.
 
 ## Safe Current Claim
 

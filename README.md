@@ -85,6 +85,7 @@ Step 5 completed a concept engineering release package:
 - DFM checklist.
 - Assembly work instruction.
 - Verification and validation matrix.
+- Software completion boundary note separating completed digital evidence from hardware, supplier and proprietary-tool blockers.
 - Engineering release package note with explicit evidence boundary.
 
 Step 6 completed a thermal exposure concept model:

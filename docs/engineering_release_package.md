@@ -24,6 +24,7 @@ Document status: concept release package for portfolio review.
 - STM32L432 candidate pin allocation and firmware porting plan.
 - Thermal exposure simulation and risk actions.
 - Verification and validation matrix.
+- Software completion boundary note.
 
 ## What This Package Demonstrates
 
@@ -38,6 +39,7 @@ Document status: concept release package for portfolio review.
 - Low-power MCU candidate selection discipline.
 - Manufacturing and assembly thinking.
 - Clear evidence boundaries.
+- Clear split between software-completed evidence, physical-test blockers and supplier-review blockers.
 
 ## Not Claimed
 
