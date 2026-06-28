@@ -56,7 +56,34 @@ Evidence boundary:
 
 This is concept FEA only. The model is a simplified enclosure plate surrogate; it is not a dynamic drop test, certified impact result or physical validation result.
 
+### Screw-Boss Compression - V1
+
+Folder: `screw_boss_compression_v1/`
+
+This load case checks a local screw boss under an equivalent screw clamp load.
+
+Setup:
+
+- Software: Abaqus 2025.
+- Unit system: mm, N, MPa.
+- Geometry: axisymmetric local plate and screw boss with 18 mm plate radius, 3 mm plate thickness, 5.5 mm boss OD, 1.8 mm pilot-hole radius and 8 mm boss height.
+- Material: PC-ABS concept, E = 2200 MPa, nu = 0.37, concept yield reference = 40 MPa.
+- Mesh: CAX4R axisymmetric quadrilateral mesh with 0.8 mm seed.
+- Load: 90 N equivalent screw clamp load applied as pressure to the top annular boss edge.
+- Boundary condition: local plate bottom fixed, with the r=0 axis constrained radially.
+
+Results:
+
+- Maximum von Mises stress: 1.20 MPa.
+- Maximum displacement magnitude: 0.005 mm.
+- Concept yield ratio: 33.36.
+- Abaqus status file reports: analysis completed successfully.
+
+Evidence boundary:
+
+This is concept FEA only. The model screens screw boss compression risk; it does not model detailed threads, torque scatter, creep, inserts or physical pull-out testing.
+
 ## Planned Next Load Cases
 
-1. Optional screw boss compression / torque risk check.
-2. Optional gasket compression contact check.
+1. Optional gasket compression contact check.
+2. Optional service-port cover compression check.

@@ -62,6 +62,6 @@ Design intent:
 Remaining engineering limits:
 
 - Screw and gasket geometry is modelled as design intent, not validated tolerance stack-up.
-- Strap lugs and enclosure corner have concept Abaqus load cases completed, but no physical validation has been completed yet.
+- Strap lugs, enclosure corner and screw boss compression have concept Abaqus load cases completed, but no physical validation has been completed yet.
 - No physical IP, drop, UV, thermal or vibration testing has been completed.
 - Final draft angles, mould-flow considerations and production tooling features are still outside the current evidence boundary.

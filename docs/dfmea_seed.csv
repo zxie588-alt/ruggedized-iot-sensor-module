@@ -1,7 +1,7 @@
 Item,FailureMode,Effect,Cause,Detection,Mitigation,Severity,Occurrence,DetectionScore,RPN,Status
 Gasket interface,Water ingress,Electronics damage or false readings,Insufficient compression or poor groove design,Spray test visual inspection,Gasket groove compression path and screw spacing,9,4,5,180,Planned
 Strap mount,Mount tab fracture,Device falls off field structure,Stress concentration or weak material,Abaqus concept FEA and future pull fixture,Fillets ribs and material check,8,4,4,128,Concept FEA complete
-Screw boss,Boss cracking,Seal compression lost,Thin boss wall or over-tightening,FEA section and assembly torque note,Boss ribs and torque limit,7,4,5,140,Planned
+Screw boss,Boss cracking,Seal compression lost,Thin boss wall or over-tightening,Abaqus compression FEA and future torque/pull-out test,Boss ribs torque limit and possible insert review,7,4,5,140,Concept FEA complete
 Enclosure corner,Corner cracking or local deformation,Handling damage or seal path distortion,Drop/impact load concentrated near corner,Abaqus equivalent static corner-load FEA and future drop observation,Corner radius screw-line support and material check,7,4,4,112,Concept FEA complete
 Service port,Leak path,Moisture entry,Loose cover or poor seal,Inspection and future spray test,Sealed plug and captive cover,8,3,5,120,Planned
 Battery pocket,Battery movement,Intermittent power or enclosure damage,Insufficient restraint,Shake/drop observation,Battery ribs foam pad and restraint clip,6,4,5,120,Planned

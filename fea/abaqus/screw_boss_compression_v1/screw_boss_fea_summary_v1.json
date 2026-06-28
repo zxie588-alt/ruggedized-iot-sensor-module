@@ -1,0 +1,20 @@
+{
+  "boundary_condition": "Local plate bottom fixed, with the r=0 axis constrained radially.",
+  "concept_yield_MPa": 40.0,
+  "contact_area_mm2": 84.85441757346031,
+  "elastic_modulus_MPa": 2200.0,
+  "element_family": "CAX4R axisymmetric quadrilateral mesh",
+  "equivalent_pressure_MPa": 1.0606401242703134,
+  "evidence_boundary": "Concept FEA only. The model screens screw boss compression risk; it does not model detailed threads, torque scatter, creep, inserts or physical pull-out testing.",
+  "factor_to_concept_yield": 33.3624876000904,
+  "geometry": "Axisymmetric local plate and screw boss: 18 mm plate radius, 3 mm plate thickness, 5.5 mm boss OD, 1.8 mm pilot-hole radius, 8 mm boss height.",
+  "job_name": "iot_screw_boss_compression_v1",
+  "load_case": "90 N equivalent screw clamp load applied as pressure to the top annular boss edge.",
+  "material": "PC-ABS concept",
+  "max_displacement_mm": 0.004660027101635933,
+  "max_mises_MPa": 1.1989513635635376,
+  "mesh_seed_mm": 0.8,
+  "model_name": "screw_boss_compression_v1",
+  "poisson_ratio": 0.37,
+  "total_clamp_load_N": 90.0
+}

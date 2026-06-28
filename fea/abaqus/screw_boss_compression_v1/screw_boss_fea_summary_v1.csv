@@ -1,0 +1,6 @@
+metric,value,unit
+total_clamp_load,90.0,N
+equivalent_pressure,1.06064012427031,MPa
+max_mises,1.19895136356354,MPa
+max_displacement,0.00466002710163593,mm
+factor_to_concept_yield,33.3624876000904,-

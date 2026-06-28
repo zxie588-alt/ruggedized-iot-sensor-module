@@ -14,6 +14,7 @@ Document status: concept release package for portfolio review.
 - Assembly work instruction.
 - Abaqus strap-mount lug concept FEA.
 - Abaqus enclosure corner-load concept FEA.
+- Abaqus screw-boss compression concept FEA.
 - Proteus-style electronics architecture.
 - Keil/uVision firmware scaffold and ARMCLANG-verifiable C source.
 - Verification and validation matrix.
@@ -43,5 +44,6 @@ Document status: concept release package for portfolio review.
 2. Run dry assembly and update work instruction.
 3. Run pull fixture test on strap lugs.
 4. Run physical corner/drop orientation observation with photo log.
-5. Run spray observation with dye/tissue indicator.
-6. Log thermal behaviour under sunlight or lamp exposure.
+5. Run physical screw torque/pull-out observation.
+6. Run spray observation with dye/tissue indicator.
+7. Log thermal behaviour under sunlight or lamp exposure.

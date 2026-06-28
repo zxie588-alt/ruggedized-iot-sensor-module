@@ -9,7 +9,7 @@ The goal is not to claim a certified commercial product. The goal is to show a r
 - Define use case, stakeholders and engineering requirements.
 - Design a rugged enclosure with gasket, screw bosses, ribs, PCB/battery placeholders, sealed port and strap mount.
 - Build test-rig concepts for strap pull, drop orientation, spray exposure and thermal logging.
-- Run preliminary FEA for strap mount and enclosure corner loading.
+- Run preliminary FEA for strap mount, enclosure corner loading and screw-boss clamp compression.
 - Create electronics architecture in Proteus and firmware plan in Keil / embedded C.
 - Package evidence into drawings, BOM, DFMEA, test plan and portfolio page.
 
@@ -47,7 +47,7 @@ Step 2 completed with working SolidWorks CAD V1 and detailed CAD V2:
 
 The current CAD establishes package size, component stack-up, screw boss locations, gasket/lip intent, service access, strap mounting and assembly direction. It is still a portfolio concept model, not a production enclosure.
 
-Step 3 completed two Abaqus concept load cases:
+Step 3 completed three Abaqus concept load cases:
 
 - Strap-mount lug static pull model in Abaqus 2025.
 - 150 N total pull load split across two rear lug holes.
@@ -57,6 +57,10 @@ Step 3 completed two Abaqus concept load cases:
 - Enclosure corner-load equivalent static model in Abaqus 2025.
 - 120 N downward load applied to one outer corner patch with four screw-line support regions.
 - Result summary: 5.55 MPa max von Mises stress, 0.021 mm max displacement, concept yield ratio 7.21.
+- Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
+- Screw-boss compression model in Abaqus 2025.
+- 90 N equivalent screw clamp load applied to an axisymmetric local boss and plate surrogate.
+- Result summary: 1.20 MPa max von Mises stress, 0.005 mm max displacement, concept yield ratio 33.36.
 - Outputs include `.cae`, `.inp`, `.odb`, contour plots, CSV/JSON summary and a short FEA report.
 
 Step 4 started with electronics and firmware architecture:
@@ -78,4 +82,4 @@ Step 5 completed a concept engineering release package:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, two Abaqus concept FEA load cases, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware or certified compliance until those are actually completed. Remaining high-value targets are real Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.

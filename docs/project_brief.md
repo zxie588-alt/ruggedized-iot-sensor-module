@@ -26,7 +26,7 @@ Create a portfolio-grade product engineering package that is visually clear and 
 - SolidWorks enclosure and exploded assembly.
 - DFM features: wall thickness, ribs, bosses, draft, gasket groove, screw compression path.
 - Reliability test fixtures: strap pull, drop orientation, spray exposure and thermal logging.
-- Abaqus/SolidWorks Simulation result set for two key load cases.
+- Abaqus/SolidWorks Simulation result set for three key load cases.
 - Proteus electronics architecture and Keil firmware plan.
 - DFMEA, BOM, test plan and evidence gap register.
 

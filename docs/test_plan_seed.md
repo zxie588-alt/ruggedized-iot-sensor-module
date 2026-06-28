@@ -36,3 +36,10 @@ This is the initial reliability and validation plan. Physical testing is future 
 - Method: assembly sequence review and timed dry run.
 - Evidence: work instruction, exploded view, issue log.
 - Current status: assembly work instruction completed; physical dry run planned.
+
+## T-06 Screw Boss Torque / Compression Check
+
+- Purpose: evaluate local boss compression and cracking risk from screw assembly.
+- Method: apply a controlled screw torque or equivalent clamp load, inspect boss root and pilot-hole area after assembly.
+- Evidence: Abaqus screw-boss compression FEA completed; physical torque/pull-out observation still planned.
+- Current status: concept FEA completed, physical test planned.

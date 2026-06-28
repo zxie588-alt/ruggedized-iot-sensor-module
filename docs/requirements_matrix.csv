@@ -3,7 +3,7 @@ REQ-001,Protect electronics from outdoor splash/rain exposure,Outdoor/agri field
 REQ-002,Provide clear mechanical mounting method,Field installation needs repeatability,Strap mount or bracket mount with pull-load check,FEA and strap pull fixture,Planned
 REQ-003,Allow service/debug access without compromising main seal,Maintenance and firmware update need access,Sealed cover or plug for debug/charging port,CAD review and assembly check,Planned
 REQ-004,Package PCB and battery without rattle or cable strain,Electronics reliability,PCB standoffs battery pocket and cable routing,CAD section and assembly sequence,Planned
-REQ-005,Support injection-moulding-aware geometry,DFM and product realism,Wall thickness ribs draft screw bosses and radii,DFM checklist,Planned
+REQ-005,Support injection-moulding-aware geometry,DFM and product realism,Wall thickness ribs draft screw bosses and radii,DFM checklist and screw-boss compression FEA,Concept complete
 REQ-006,Identify water ingress risks explicitly,Avoid false IP claims,Ingress risk register and test plan,DFMEA and future spray test,Planned
 REQ-007,Provide electronics architecture,Mechanical layout depends on PCB battery ports and sensors,Proteus schematic/model with MCU sensor battery regulator and LED,Proteus project export,Planned
 REQ-008,Provide firmware architecture,Shows embedded-system boundary without overclaiming,Sleep/read/transmit/fault-state pseudocode or Keil project,Keil/embedded C files,Planned
