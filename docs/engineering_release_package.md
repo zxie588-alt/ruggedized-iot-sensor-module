@@ -18,6 +18,7 @@ Document status: concept release package for portfolio review.
 - Proteus electronics architecture.
 - Proteus-ready schematic evidence package.
 - Keil/uVision firmware scaffold and ARMCLANG-verifiable C source.
+- Thermal exposure simulation and risk actions.
 - Verification and validation matrix.
 
 ## What This Package Demonstrates
@@ -47,4 +48,4 @@ Document status: concept release package for portfolio review.
 4. Run physical corner/drop orientation observation with photo log.
 5. Run physical screw torque/pull-out observation.
 6. Run spray observation with dye/tissue indicator.
-7. Log thermal behaviour under sunlight or lamp exposure.
+7. Log thermal behaviour under sunlight or lamp exposure to compare against the simulation.

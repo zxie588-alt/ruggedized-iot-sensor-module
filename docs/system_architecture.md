@@ -40,5 +40,5 @@ Planned Keil / embedded C states:
 - Strap pull fixture validates mount load path.
 - Drop orientation fixture defines repeatable impact orientations.
 - Spray stand supports future water-ingress observation.
-- Thermal logging setup records internal/external temperature trend.
+- Thermal exposure simulation screens sealed-enclosure heat risk before internal/external physical logging.
 - Evidence gap register prevents overclaiming before physical testing.

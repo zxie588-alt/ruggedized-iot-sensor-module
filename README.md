@@ -81,6 +81,14 @@ Step 5 completed a concept engineering release package:
 - Verification and validation matrix.
 - Engineering release package note with explicit evidence boundary.
 
+Step 6 completed a thermal exposure concept model:
+
+- Lumped thermal RC model for a sealed outdoor enclosure under warm ambient and solar/lamp heat input.
+- 240 minute simulated exposure with electronics baseline and transmit-boundary power pulses.
+- Result summary: 66.6 C peak internal temperature under the selected conservative heat-input assumption, exceeding the 55 C warning reference.
+- Outputs include CSV data, JSON summary, SVG plot, a short report and a reproducible Python script.
+- The result is treated as a design risk flag, not as measured thermal performance.
+
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, native Proteus `.pdsprj` capture or certified compliance until those are actually completed. Remaining high-value targets are native Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, thermal exposure simulation and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, native Proteus `.pdsprj` capture or certified compliance until those are actually completed. Remaining high-value targets are native Proteus schematic capture, device-pack-bound Keil build and physical prototype testing.

@@ -27,8 +27,8 @@ This is the initial reliability and validation plan. Physical testing is future 
 
 - Purpose: estimate internal temperature rise in sealed enclosure.
 - Method: log internal/external temperature under indoor lamp or sun exposure.
-- Evidence: CSV data, plot, limitation note.
-- Current status: planned.
+- Evidence: thermal exposure simulation CSV/plot/report completed; physical internal/external logging still planned.
+- Current status: simulation completed, physical logging planned.
 
 ## T-05 Assembly Repeatability
 

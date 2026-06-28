@@ -1,0 +1,21 @@
+{
+  "ambient_peak_C": 32.0,
+  "ambient_start_C": 20.0,
+  "duration_min": 240,
+  "electronics_base_W": 0.08,
+  "electronics_transmit_W": 0.45,
+  "evidence_boundary": "Simulation only; no measured thermal logging is claimed.",
+  "minimum_margin_to_warning_C": -11.582535846233881,
+  "model": "lumped thermal RC concept model",
+  "peak_ambient_C": 32.0,
+  "peak_ambient_minute": 120,
+  "peak_internal_C": 66.58253584623388,
+  "peak_internal_minute": 169,
+  "solar_peak_W": 4.8,
+  "thermal_capacitance_J_per_C": 420.0,
+  "thermal_resistance_C_per_W": 9.5,
+  "time_step_s": 60,
+  "tx_duration_min": 2,
+  "tx_period_min": 30,
+  "warning_reference_C": 55.0
+}

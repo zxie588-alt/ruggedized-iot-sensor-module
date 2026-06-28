@@ -5,5 +5,5 @@ Screw boss,Boss cracking,Seal compression lost,Thin boss wall or over-tightening
 Enclosure corner,Corner cracking or local deformation,Handling damage or seal path distortion,Drop/impact load concentrated near corner,Abaqus equivalent static corner-load FEA and future drop observation,Corner radius screw-line support and material check,7,4,4,112,Concept FEA complete
 Service port,Leak path,Moisture entry,Loose cover or poor seal,Inspection and future spray test,Sealed plug and captive cover,8,3,5,120,Planned
 Battery pocket,Battery movement,Intermittent power or enclosure damage,Insufficient restraint,Shake/drop observation,Battery ribs foam pad and restraint clip,6,4,5,120,Planned
-Thermal path,Overheating,Reduced electronics life,Solar load and sealed enclosure,Temperature logging,Thermal vent/ribs and low-power firmware,6,3,6,108,Planned
+Thermal path,Overheating,Reduced electronics life,Solar load and sealed enclosure,Lumped thermal simulation and future temperature logging,Light colour shaded mounting vent membrane and low-duty firmware,6,3,6,108,Simulation complete
 Assembly process,Gasket omitted,Immediate water ingress,Human assembly error,Work instruction and visual inspection,Assembly checklist and coloured gasket,9,2,4,72,Planned
