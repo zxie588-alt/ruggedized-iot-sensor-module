@@ -24,6 +24,7 @@ This register prevents the project from looking more complete than it is.
 - PLC test-fixture control concept with I/O list, sequence table, fault matrix, ladder logic, HMI screen spec and IEC 61131-3 structured text.
 - Keil/uVision ARMCM3 concept target build with startup file, scatter file, ARMCLANG source compile and 0-error/0-warning uVision build log.
 - Keil device-pack audit with locally installed `Keil.STM32L4xx_DFP` 3.0.0, `PackChk` result and `STM32L432KCUx` candidate MCU path.
+- Real SolidWorks assembly screenshot and real Keil/uVision project-open screenshot.
 - STM32L432 candidate pin allocation and board-specific firmware porting plan.
 - Thermal exposure simulation with CSV, JSON, SVG plot and report.
 - Concept drawing register and SVG drawing sheets.
@@ -37,6 +38,7 @@ This register prevents the project from looking more complete than it is.
 ## Not Yet Completed
 
 - Fully populated native Proteus schematic sheet and ERC export.
+- Real populated Proteus/EDA/PLC screenshots. Current Proteus GUI opens but the schematic canvas is blank, and no PLC IDE/HMI screenshot has been captured.
 - Final board-specific STM32L432 target build with startup/RTE integration.
 - Physical test data, including measured thermal logging.
 - IP rating or compliance testing.
