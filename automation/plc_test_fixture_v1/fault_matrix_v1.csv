@@ -1,0 +1,9 @@
+Fault Code,Fault Name,Trigger,Immediate Action,Reset Condition,Why It Matters
+0,None,No active fault,Normal sequence,Not applicable,Healthy state
+101,E-stop chain open,E_STOP_OK equals 0,All outputs off and step 90,E_STOP_OK restored and operator reset,Primary safety condition
+102,Door opened during cycle,DOOR_CLOSED equals 0 in active step,Pump lamp DUT power off and step 90,Door closed and operator reset,Prevents spray/heat exposure
+103,Clamp lost,CLAMP_CLOSED equals 0 in active step,Pump lamp off DUT power off and step 90,Clamp confirmed and operator reset,Prevents test on loose module
+104,Leak detected,LEAK_SENSOR equals 1,PUMP_ENABLE off and step 90,Leak cleared and operator reset,Protects electronics and fixture
+105,Over-temperature,TEMP_HIGH equals 1,LAMP_ENABLE off VENT_FAN on and step 90,Temperature normal and operator reset,Protects enclosure and operator
+106,Logger not ready,LOGGER_READY equals 0 at precheck,Hold step 10 and alarm,Logger ready or operator bypass,Prevents missing validation data
+107,DUT missing,DUT_PRESENT equals 0 at start,Reject start and alarm,DUT present,Prevents empty fixture cycle

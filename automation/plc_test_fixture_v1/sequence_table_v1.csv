@@ -1,0 +1,8 @@
+Step,Name,Entry Conditions,Outputs,Exit Conditions,Fault Checks
+0,Idle,E_STOP_OK and no active fault,All outputs off except optional HMI heartbeat,Start command and DUT_PRESENT and CLAMP_CLOSED and DOOR_CLOSED,Any safety input loss holds idle
+10,Precheck,DUT present clamp closed door closed logger ready,DUT_POWER on and LOGGER_TRIGGER pulse,Precheck timer done,E_STOP_OK DOOR_CLOSED CLAMP_CLOSED LOGGER_READY
+20,Spray Exposure,Precheck complete,PUMP_ENABLE on DUT_POWER on,Spray timer reaches SPRAY_TIME_SP,LEAK_SENSOR TEMP_HIGH safety chain
+30,Thermal Exposure,Spray complete,LAMP_ENABLE on DUT_POWER on LOGGER_TRIGGER pulse,Thermal timer reaches THERMAL_TIME_SP,TEMP_HIGH DOOR_CLOSED E_STOP_OK
+40,Cooldown,Thermal complete,VENT_FAN on DUT_POWER on,Cooldown timer reaches COOLDOWN_TIME_SP,DOOR_CLOSED E_STOP_OK
+50,Complete,Cooldown complete,PASS_LIGHT on LOGGER_TRIGGER pulse,Operator reset command,None
+90,Fault,Any fault condition,FAIL_LIGHT on BUZZER pulse all hazardous outputs off,Fault reset and safe inputs restored,Fault latch retained until reset

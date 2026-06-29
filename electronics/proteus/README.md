@@ -14,3 +14,5 @@ Planned native-capture output:
 Boundary:
 
 Proteus is used to communicate electronics architecture and support mechanical packaging. The current evidence is Proteus-ready schematic documentation, not a final PCB manufacturing release or validated circuit simulation.
+
+The board-level extension is captured in `../pcb_concept_v1/`, including component BOM, netlist, placement plan, two-layer stackup, DRC-style review and concept manufacturing outputs.

@@ -9,6 +9,7 @@ The goal is not to claim a certified commercial product. The goal is to show a r
 - Define use case, stakeholders and engineering requirements.
 - Design a rugged enclosure with gasket, screw bosses, ribs, PCB/battery placeholders, sealed port and strap mount.
 - Build test-rig concepts for strap pull, drop orientation, spray exposure and thermal logging.
+- Add PLC-style fixture logic for repeatable spray/thermal validation control.
 - Run preliminary FEA for strap mount, enclosure corner loading and screw-boss clamp compression.
 - Create electronics architecture in Proteus and firmware plan in Keil / embedded C.
 - Package evidence into drawings, BOM, DFMEA, test plan and portfolio page.
@@ -26,6 +27,8 @@ The goal is not to claim a certified commercial product. The goal is to show a r
 - `exports/` - STEP/STL neutral CAD exports.
 - `drawings/` - 2D drawing sheets and manufacturing/fixture layouts.
 - `electronics/proteus/` - Proteus schematic/model files and electronics architecture notes.
+- `electronics/pcb_concept_v1/` - PCB concept BOM, placement, stackup, DRC-style review and concept manufacturing outputs.
+- `automation/plc_test_fixture_v1/` - PLC-style test fixture logic, I/O, HMI and sequence evidence.
 - `firmware/keil/` - Keil MDK/uVision concept target and firmware plan.
 - `firmware/embedded_c/` - portable embedded C skeletons if Keil project export is not available.
 - `fea/abaqus/` - Abaqus model files, load case notes and result exports.
@@ -68,6 +71,8 @@ Step 4 started with electronics and firmware architecture:
 - Proteus electronics architecture note and concept signal table.
 - Proteus-ready schematic evidence package with component candidates, connection-level netlist, power budget, firmware-aligned pin map, review checklist and SVG schematic.
 - Native Proteus 8.13 `.pdsprj` project container added and verified with `ROOT.DSN`, `ROOT.CDB`, `PROJECT.XML`, manifest and verification report.
+- PCB concept package added with board-level BOM, netlist, placement plan, stackup, DRC-style review and concept manufacturing outputs.
+- PLC test-fixture control package added with I/O list, sequence table, fault matrix, ladder logic, HMI screen spec and IEC 61131-3 structured text.
 - Keil/uVision ARMCM3 concept target using the local `UV4.exe` uVision launcher.
 - Startup assembly, linker scatter file and ARM Compiler 6 project settings added for a reproducible target build.
 - ARMCLANG source compile and uVision command-line target build verified.
@@ -98,4 +103,4 @@ Step 6 completed a thermal exposure concept model:
 
 ## Evidence Boundary
 
-Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a clean Keil/uVision ARMCM3 concept target build, audited STM32L4 device-pack readiness with `STM32L432KCUx` candidate path, STM32L432 candidate pin allocation and porting plan, thermal exposure simulation, concept drawing-control evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, final PCB design, flashed firmware, fully populated native Proteus schematic capture, board-specific MCU/RTE/startup binding, supplier-approved production drawings or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, board-specific `STM32L432KCUx` target build, supplier-reviewed production drawings and physical prototype testing.
+Current project content includes planning documents, SolidWorks concept CAD V1/V2, three Abaqus concept FEA load cases, Proteus-ready electronics/firmware architecture evidence, a verified native Proteus `.pdsprj` project container, a PCB concept package, a PLC-style test-fixture control package, a clean Keil/uVision ARMCM3 concept target build, audited STM32L4 device-pack readiness with `STM32L432KCUx` candidate path, STM32L432 candidate pin allocation and porting plan, thermal exposure simulation, concept drawing-control evidence and a concept engineering release package. Do not claim physical testing, IP rating, production readiness, native EDA PCB release, commissioned PLC fixture, flashed firmware, fully populated native Proteus schematic capture, board-specific MCU/RTE/startup binding, supplier-approved production drawings or certified compliance until those are actually completed. Remaining high-value targets are populated native Proteus schematic capture with ERC export, native EDA PCB DRC/fabrication package, commissioned PLC test fixture, board-specific `STM32L432KCUx` target build, supplier-reviewed production drawings and physical prototype testing.

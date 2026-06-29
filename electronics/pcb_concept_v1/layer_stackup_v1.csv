@@ -1,0 +1,8 @@
+Layer,Material/Type,Thickness,Function,Notes
+Top silkscreen,Ink,N/A,Reference designators and assembly markings,Concept output only
+Top solder mask,LPI mask,N/A,Solder mask,Prototype default
+Top copper,1 oz copper,35 um,Signals and short power routes,Main component side
+Core,FR-4,1.6 mm,Mechanical substrate,Prototype assumption
+Bottom copper,1 oz copper,35 um,Ground pour and selected routes,Return path concept
+Bottom solder mask,LPI mask,N/A,Solder mask,Prototype default
+Board outline,Routed profile,N/A,72 mm x 44 mm rounded rectangle,Matches enclosure PCB envelope concept

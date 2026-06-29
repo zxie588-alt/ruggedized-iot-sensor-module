@@ -1,0 +1,6 @@
+File,Layer,Description,Production Status
+RuggedIoT_BoardOutline_GKO.gbr,Board outline,72 mm x 44 mm rounded-rectangle concept outline,Concept only
+RuggedIoT_TopCopper_GTL.gbr,Top copper,Component-side power/signal route intent,Concept only
+RuggedIoT_BottomCopper_GBL.gbr,Bottom copper,Ground pour and selected return route intent,Concept only
+RuggedIoT_TopSilkscreen_GTO.gbr,Top silkscreen,Reference designator placement intent,Concept only
+RuggedIoT_NCDrill_concept.drl,Drill,Mounting holes vias and connector drill concept,Concept only

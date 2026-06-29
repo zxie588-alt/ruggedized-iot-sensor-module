@@ -1,0 +1,22 @@
+Tag,Address,Type,Description,Normal State,Engineering Purpose
+E_STOP_OK,I0.0,DI,Emergency-stop chain healthy,1,Permit all fixture motion/outputs
+DOOR_CLOSED,I0.1,DI,Fixture enclosure door closed,1,Prevent spray/heat with door open
+CLAMP_CLOSED,I0.2,DI,DUT clamp confirmed,1,Confirm module is located before test
+DUT_PRESENT,I0.3,DI,Device-under-test present sensor,1,Prevent cycle without product
+LEAK_SENSOR,I0.4,DI,Water leak tray sensor,0,Stop pump and mark fault
+TEMP_HIGH,I0.5,DI,Fixture over-temperature switch,0,Stop lamp/heat source
+SERVICE_BUTTON,I0.6,DI,Operator service/jog button,0,Manual service mode request
+LOGGER_READY,I0.7,DI,External logger ready,1,Allow automatic cycle data capture
+PUMP_ENABLE,Q0.0,DO,Spray pump command,0,Run spray exposure step
+LAMP_ENABLE,Q0.1,DO,Heat lamp command,0,Run thermal exposure step
+DUT_POWER,Q0.2,DO,DUT power relay,0,Power module during test
+LOGGER_TRIGGER,Q0.3,DO,Data logger trigger,0,Start/mark data capture
+PASS_LIGHT,Q0.4,DO,Green stack light,0,Operator pass indication
+FAIL_LIGHT,Q0.5,DO,Red stack light,0,Operator fault/fail indication
+BUZZER,Q0.6,DO,Audible alarm,0,Fault and cycle-complete alert
+VENT_FAN,Q0.7,DO,Fixture ventilation fan,0,Cooldown and moisture purge
+SPRAY_TIME_SP,MW10,WORD,Spray duration setpoint seconds,120,Recipe parameter
+THERMAL_TIME_SP,MW12,WORD,Thermal duration setpoint seconds,300,Recipe parameter
+COOLDOWN_TIME_SP,MW14,WORD,Cooldown duration setpoint seconds,180,Recipe parameter
+TEST_STEP,MW20,WORD,Current sequence step,0,HMI status and debug
+FAULT_CODE,MW22,WORD,Active fault code,0,HMI alarm display

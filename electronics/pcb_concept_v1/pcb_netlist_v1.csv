@@ -1,0 +1,18 @@
+Net,Connected Items,Layer/Priority,Function,Firmware Owner,Mechanical Interface
+VBAT_RAW,"BT1-1,F1-1",Top power entry,Battery input before protection,Power monitor,Battery pocket
+VBAT_PROTECTED,"F1-2,Q1-S,R1-1",Top power route,Protected battery rail,Power monitor,Battery service path
+REG_IN,"Q1-D,U3-IN,C1-1",Top power route,Regulator input,Platform,Power-entry side of PCB
+3V3,"U3-OUT,U1-VDD,U2-VCC,J1-VREF,J2-VCC,R3-1,R4-1,D1-A,D2-A",Top pour/short routes,Main regulated logic rail,Platform,PCB envelope
+GND,"BT1-2,U1-VSS,U2-GND,U3-GND,J1-GND,J2-GND,Caps LED returns divider bottom",Bottom pour,Common return,Platform,Standoff and enclosure ground reference
+BATTERY_ADC,"R1-2,R2-1,C2-1,U1-PA0",Short analog route,Scaled battery voltage,Power monitor,Battery monitoring requirement
+SENSOR_I2C_SCL,"U1-PB6,U2-SCL,R3-2",Short signal route,I2C clock,Sensor driver,Sensor membrane opening
+SENSOR_I2C_SDA,"U1-PB7,U2-SDA,R4-2",Short signal route,I2C data,Sensor driver,Sensor membrane opening
+STATUS_LED,"U1-PA5,R5-1,D1-K",Top signal route,Heartbeat/service indication,Application,Light-pipe/window area
+FAULT_LED,"U1-PA6,R6-1,D2-K",Top signal route,Fault/low-battery indication,Application,Light-pipe/window area
+SERVICE_WAKE,"SW1-1,U1-PB3",Service connector side,Wake service mode,Application,Sealed service/debug port
+RADIO_UART_TX,"U1-PA9,J2-RXD",Edge route,Future radio transmit,Radio boundary,Radio module bay
+RADIO_UART_RX,"U1-PA10,J2-TXD",Edge route,Future radio receive,Radio boundary,Radio module bay
+DEBUG_SWDIO,"U1-PA13,J1-SWDIO",Service connector side,SWD debug data,Platform,Sealed service/debug port
+DEBUG_SWCLK,"U1-PA14,J1-SWCLK",Service connector side,SWD debug clock,Platform,Sealed service/debug port
+NRST,"U1-NRST,J1-NRST,RST pull-up",Service connector side,Reset/debug recovery,Platform,Sealed service/debug port
+BOOT0,"U1-BOOT0,test pad",Bottom/test area,Boot recovery,Platform,Prototype service access

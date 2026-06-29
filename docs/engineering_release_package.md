@@ -19,6 +19,8 @@ Document status: concept release package for portfolio review.
 - Proteus electronics architecture.
 - Proteus-ready schematic evidence package.
 - Native Proteus project container verification.
+- PCB concept package with board-level BOM, placement, stackup, DRC-style review and concept manufacturing outputs.
+- PLC test-fixture control concept with I/O list, sequence table, fault matrix, ladder logic, HMI spec and IEC 61131-3 structured text.
 - Keil/uVision ARMCM3 concept target build with ARMCLANG-verifiable C source, startup file, scatter file and build log.
 - Keil STM32L4 device-pack audit and `STM32L432KCUx` candidate MCU path.
 - STM32L432 candidate pin allocation and firmware porting plan.
@@ -35,7 +37,9 @@ Document status: concept release package for portfolio review.
 - Early FEA load-path validation.
 - Electronics/firmware signal ownership.
 - Electronics toolchain traceability.
+- Board-level PCB packaging and manufacturing-output awareness.
 - Embedded firmware build traceability.
+- PLC-style manufacturing test automation thinking.
 - Low-power MCU candidate selection discipline.
 - Manufacturing and assembly thinking.
 - Clear evidence boundaries.
@@ -46,7 +50,8 @@ Document status: concept release package for portfolio review.
 - Production release.
 - IP rating.
 - Physical pull/drop/spray/thermal testing.
-- Final PCB design.
+- Native EDA / vendor-ready PCB release.
+- Downloaded or commissioned PLC fixture program.
 - Fully populated native Proteus schematic and ERC.
 - Board-specific MCU/RTE/startup firmware target binding.
 - Supplier-reviewed GD&T drawing release.

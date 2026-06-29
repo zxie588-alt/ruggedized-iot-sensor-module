@@ -1,0 +1,17 @@
+Ref,Center X mm,Center Y mm,Rotation deg,Side,Placement Reason,Keepout/Review
+U1,36.0,23.0,0,Top,Central MCU placement reduces average route length,Keep SWD and oscillator-sensitive routes short
+U2,18.0,31.0,0,Top,Near sensor membrane opening and away from regulator heat,Confirm vent/membrane position
+U3,20.0,13.0,0,Top,Near battery input and power-entry side,Check regulator thermal rise
+Q1,13.0,12.0,180,Top,Input protection close to battery connector,Keep VBAT path wide
+F1,8.0,12.0,0,Top,First device after battery input,Review serviceability and fuse derating
+BT1,5.0,22.0,90,Top,Left edge close to battery pocket,Check cable bend radius
+J1,66.0,12.0,270,Top,Right edge sealed service/debug port,Keep service opening sealed
+J2,66.0,31.0,270,Top,Right edge radio-module boundary,Reserve antenna/module keepout
+D1,47.0,8.0,0,Top,Visible status indicator area,Check light-pipe or window location
+D2,55.0,8.0,0,Top,Visible fault indicator area,Check light-pipe or window location
+SW1,58.0,38.0,0,Top,Service wake near sealed service port,Check enclosure sealing
+TP1,36.0,39.0,0,Bottom,BOOT0/test recovery point,Prototype-only access
+MH1,6.0,6.0,0,Mechanical,Mounting hole / standoff,Maintain copper keepout
+MH2,66.0,6.0,0,Mechanical,Mounting hole / standoff,Maintain copper keepout
+MH3,6.0,38.0,0,Mechanical,Mounting hole / standoff,Maintain copper keepout
+MH4,66.0,38.0,0,Mechanical,Mounting hole / standoff,Maintain copper keepout
